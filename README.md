@@ -52,6 +52,12 @@ The repo holds only our own work. Firmware, toolkits, SDKs and anything else lar
 - **Check hashes** of every download against the values in the READMEs.
 - **Flashing wipes the device.** Both devices stayed recoverable throughout: the bootloader sits below the OS and can always be reflashed.
 
+## License and disclaimer
+
+Our own scripts and write-ups are under the [MIT License](LICENSE). Patches to other projects carry those projects' licenses: `common/bb10mt-leap-support.patch` is GPL-3.0 like bb10mt, and `playbook/webkit/patches/` follow WebKit's LGPL-2.1/BSD licenses.
+
+This repo contains no BlackBerry firmware or software. It is an independent hobby project, not affiliated with or endorsed by BlackBerry Limited. "BlackBerry", "PlayBook" and "Leap" are its trademarks, used here only to name the devices. Flashing and rooting erase your device and can leave it unusable. You do this at your own risk.
+
 ## Credits
 
 - [bb10mt](https://github.com/bb10root/bb10mt) and AutoRoot v3 by the [bb10.root.sx](https://bb10.root.sx) team.
