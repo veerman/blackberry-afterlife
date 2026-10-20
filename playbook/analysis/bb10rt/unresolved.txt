@@ -1,0 +1,95 @@
+PB closure libs loaded: 36 ['libEGL.so.1', 'libGLESv1_CM.so.1', 'libaoi.so.1', 'libasound.so.2', 'libbacktrace.so.1', 'libbz2.so.1', 'libc.so.3', 'libcamapi.so.1', 'libclipboard.so.1', 'libcpp-ne.so.4', 'libcpp.so.4', 'libexif.so.1', 'libexpat.so.2', 'libforensics.so.1', 'libfreetype.so.1', 'libhiddi.so.1', 'libiconv.so.1', 'libicudata.so.46', 'libicui18n.so.46', 'libicuuc.so.46', 'libimg.so.1', 'libinput_client.so.1', 'libinput_utilities.so.1', 'libm.so.2', 'libmmedia.so.1', 'libmmfilter.so.1', 'libmmrndclient.so.1', 'libnbutil.so.1', 'libpps.so.1', 'libscreen.so.1', 'libsocket.so.3', 'libsqlite3.so.1', 'libstrm.so.1', 'libxml2.so.1', 'libxslt.so.2', 'libz.so.2']
+
+## libbtapi.so.1: 99 syms, 1 users
+  syms: _bt_a2dp_init _bt_gatt_init _bt_gatt_srv_init _bt_hfpg_init _bt_le_init bt_a2dp_deinit bt_a2dp_get_connected_devices bt_a2dp_is_streaming bt_device_deinit bt_device_init bt_disc_cancel_inquiry bt_disc_retrieve_count bt_disc_retrieve_devices bt_disc_start_inquiry_async bt_gatt_characteristics_async bt_gatt_connect_service bt_gatt_deinit bt_gatt_descriptors_async bt_gatt_disconnect_instance bt_gatt_disconnect_service bt_gatt_included_services_async bt_gatt_read_value_async bt_gatt_reg_notifications bt_gatt_srv_deinit bt_gatt_srv_deregister_service bt_gatt_srv_get_mtu bt_gatt_srv_get_service_handles bt_gatt_srv_register_service bt_gatt_srv_send_indication_async bt_gatt_srv_send_notification_async bt_gatt_srv_send_read_rsp bt_gatt_srv_send_write_rsp bt_gatt_srv_validate_service bt_gatt_write_value_async bt_gatt_write_value_noresp bt_hfpg_deinit bt_hfpg_free_devices bt_hfpg_get_connected_devices bt_hfpg_is_slc_completed bt_ldev_free_services bt_ldev_get_address bt_ldev_get_device_class bt_ldev_get_discoverable bt_ldev_get_friendly_name bt_ldev_get_power bt_ldev_get_services bt_ldev_set_discoverable bt_ldev_set_filters bt_ldev_set_power_async bt_le_add_scan_device bt_le_deinit bt_le_remove_scan_device bt_le_set_scan_params bt_rdev_clear_gatt_cache bt_rdev_delete_async bt_rdev_free bt_rdev_free_array bt_rdev_free_services bt_rdev_get_address bt_rdev_get_current_rssi bt_rdev_get_device bt_rdev_get_device_class bt_rdev_get_friendly_name bt_rdev_get_le_conn_params bt_rdev_get_le_device bt_rdev_get_namestate bt_rdev_get_remote_name bt_rdev_get_rssi bt_rdev_get_services bt_rdev_get_services_gatt bt_rdev_get_type bt_rdev_is_dual_mode bt_rdev_is_encrypted bt_rdev_pair_async bt_rdev_refresh_gatt_services_async bt_rdev_refresh_services_async bt_rdev_sdp_search_async bt_spp_close bt_spp_close_server bt_spp_deinit bt_spp_get_address bt_spp_get_service_port bt_spp_init bt_spp_open_ex bt_spp_open_server bt_spp_open_server_ex btjobq_add_job_ext btjobq_register btjobq_unregister btjobq_yield listdl_begin listdl_end listdl_init listdl_is_empty listdl_node_init listdl_node_unlist listdl_pop_first listdl_push_back listdl_size
+  users: bluetooth.default.so
+
+## libbb_a11y_rt.so.1: 56 syms, 1 users
+  syms: bb_a11y_bridge_alloc bb_a11y_bridge_initialize bb_a11y_bridge_notify_input_event bb_a11y_bridge_notify_ui_event bb_a11y_bridge_register_plug_id bb_a11y_bridge_run bb_a11y_bridge_set_accessible_find_id bb_a11y_bridge_set_accessible_get_application bb_a11y_bridge_set_accessible_get_child_at_index bb_a11y_bridge_set_accessible_get_child_count bb_a11y_bridge_set_accessible_get_description bb_a11y_bridge_set_accessible_get_id bb_a11y_bridge_set_accessible_get_index_in_parent bb_a11y_bridge_set_accessible_get_language bb_a11y_bridge_set_accessible_get_name bb_a11y_bridge_set_accessible_get_parent bb_a11y_bridge_set_accessible_get_relations bb_a11y_bridge_set_accessible_get_role bb_a11y_bridge_set_accessible_get_state bb_a11y_bridge_set_accessible_get_toolkit_name bb_a11y_bridge_set_accessible_get_toolkit_version bb_a11y_bridge_set_application_is_application bb_a11y_bridge_set_assistive_technology_registered bb_a11y_bridge_set_component_activate bb_a11y_bridge_set_component_get_accessible_at_point bb_a11y_bridge_set_component_get_extents bb_a11y_bridge_set_component_highlight bb_a11y_bridge_set_component_is_component bb_a11y_bridge_set_editable_text_cut bb_a11y_bridge_set_editable_text_is_editable_text bb_a11y_bridge_set_editable_text_paste bb_a11y_bridge_set_editable_text_replace bb_a11y_bridge_set_editable_text_set_attributes bb_a11y_bridge_set_image_is_image bb_a11y_bridge_set_text_clear_selection bb_a11y_bridge_set_text_copy bb_a11y_bridge_set_text_get_attributes bb_a11y_bridge_set_text_get_boundary_at_offset bb_a11y_bridge_set_text_get_caret_offset bb_a11y_bridge_set_text_get_default_attributes bb_a11y_bridge_set_text_get_extents bb_a11y_bridge_set_text_get_num_characters bb_a11y_bridge_set_text_get_offset_at_point bb_a11y_bridge_set_text_get_selection bb_a11y_bridge_set_text_get_text bb_a11y_bridge_set_text_highlight bb_a11y_bridge_set_text_is_text bb_a11y_bridge_set_text_scroll_substring_to bb_a11y_bridge_set_text_scroll_substring_to_point bb_a11y_bridge_set_text_set_caret_offset bb_a11y_bridge_set_text_set_selection bb_a11y_bridge_set_value_adjust bb_a11y_bridge_set_value_get bb_a11y_bridge_set_value_is_value bb_a11y_bridge_set_value_set bb_a11y_bridge_unregister_plug
+  users: libandroid_servers.so
+
+## liblocation_manager.so.1: 29 syms, 2 users
+  syms: lm_close lm_get_fds lm_get_num_fds lm_get_reply lm_loc_rep_get_accuracy lm_loc_rep_get_altitude lm_loc_rep_get_heading lm_loc_rep_get_latitude lm_loc_rep_get_longitude lm_loc_rep_get_num_satellites lm_loc_rep_get_satellite_azimuth lm_loc_rep_get_satellite_cno lm_loc_rep_get_satellite_elevation lm_loc_rep_get_satellite_flag lm_loc_rep_get_satellite_prn lm_loc_rep_get_speed lm_loc_rep_get_utc lm_loc_req_set_accuracy lm_loc_req_set_flag lm_loc_req_set_period lm_loc_req_set_provider_type lm_open lm_rep_alloc lm_rep_free lm_rep_get_type lm_req_alloc lm_req_free lm_req_set_id lm_send_request
+  users: gps.default.so libqnxlocationservice.so
+
+## libnfc.so.1: 29 syms, 1 users
+  syms: nfc_confirm_handover_process nfc_connect nfc_create_ndef_message_from_bytes nfc_delete_ndef_message nfc_destroy_target nfc_disconnect nfc_free_event nfc_get_event_type nfc_get_fd nfc_get_handover_bluetooth_mac_address nfc_get_ndef_message nfc_get_ndef_message_byte_length nfc_get_ndef_message_bytes nfc_get_ndef_message_count nfc_get_ndef_record nfc_get_notification_value nfc_get_tag_id nfc_get_tag_property nfc_get_target nfc_get_target_connection_id nfc_is_tag_locked nfc_lock_tag nfc_push_ndef_message nfc_read_event nfc_register_handover_listener nfc_register_snep_client nfc_register_tag_readerwriter nfc_unregister_tag_readerwriter nfc_write_ndef_message_to_tag
+  users: libandroid_runtime.so
+
+## libgeo_search.so.1: 25 syms, 1 users
+  syms: geo_search_close geo_search_free_reply geo_search_geocode geo_search_geocode_latlon geo_search_open geo_search_reply_get_city geo_search_reply_get_country geo_search_reply_get_county geo_search_reply_get_description geo_search_reply_get_district geo_search_reply_get_iso_alpha2_country_code geo_search_reply_get_iso_alpha3_country_code geo_search_reply_get_iso_country_id geo_search_reply_get_lat geo_search_reply_get_length geo_search_reply_get_lon geo_search_reply_get_mcc geo_search_reply_get_name geo_search_reply_get_postal_code geo_search_reply_get_region geo_search_reply_get_street geo_search_reply_get_timezone geo_search_reply_set_index geo_search_reverse_geocode geo_search_strerror
+  users: libqnxlocationservice.so
+
+## libaudio_manager.so.1: 18 syms, 4 users
+  syms: audio_manager_add_routing_change_event audio_manager_dispatch_event audio_manager_free_handle audio_manager_get_android_btsco_status audio_manager_get_default_device audio_manager_get_event audio_manager_get_event_context audio_manager_get_handle_for_runtime audio_manager_get_input_mute audio_manager_get_output_level audio_manager_get_voice_service_status audio_manager_is_device_connected audio_manager_set_android_btsco_status audio_manager_set_handle_type audio_manager_set_input_mute audio_manager_set_output_level audio_manager_set_voice_output_level audio_manager_wait_for_initialization
+  users: audio.primary.default.so audio_policy.default.so bluetooth.default.so libmediaplayerservice.so
+
+## libPushService.so.1: 15 syms, 1 users
+  syms: _ZN2bb14communications4push11PushService10acceptPushERKSs _ZN2bb14communications4push11PushService10processMsgEv _ZN2bb14communications4push11PushService11getListenerEv _ZN2bb14communications4push11PushService11setListenerEPNS1_12PushListenerE _ZN2bb14communications4push11PushService13createChannelERKSs _ZN2bb14communications4push11PushService13createSessionEv _ZN2bb14communications4push11PushService14destroyChannelEv _ZN2bb14communications4push11PushService16registerToLaunchEv _ZN2bb14communications4push11PushService20unregisterFromLaunchEv _ZN2bb14communications4push11PushService9getPushFdEv _ZN2bb14communications4push11PushServiceC1ERKSsS4_ _ZN2bb14communications4push11PushServiceD1Ev _ZNK2bb14communications4push10PushStatus19getErrorDescriptionEv _ZNK2bb14communications4push10PushStatus7getCodeEv _ZNK2bb14communications4push10PushStatus7isErrorEv
+  users: shrimp
+
+## libpng16.so.0: 12 syms, 1 users
+  syms: png16_png_create_info_struct png16_png_create_read_struct png16_png_destroy_read_struct png16_png_get_IHDR png16_png_get_rowbytes png16_png_init_io png16_png_read_image png16_png_read_info png16_png_read_update_info png16_png_set_longjmp_fn png16_png_set_sig_bytes png16_png_sig_cmp
+  users: navigatorshell
+
+## libcamapi.so.1: 11 syms, 1 users
+  syms: _camera_get_physical_property camera_config_focus_assist camera_init_video_encoder camera_meta_get_face_id camera_meta_get_face_region camera_meta_get_face_score camera_meta_iterate_metadata camera_set_resource_pid camera_set_vf_mode camera_start_encode camera_stop_encode
+  users: camera.default.so
+
+## CORE? (libc/libm/libsocket/libz in IFS, inferred): 10 syms, 8 users
+  syms: inotify_add_watch inotify_init inotify_rm_watch msgserver_add msgserver_create msgserver_thread_loop pps_encoder_add_from_decoder pps_encoder_set_option procmgr_timer_tolerance vslog2f
+  users: camera.default.so libandroid_runtime.so libandroid_servers.so libdvm.so libmediaplayerservice.so libutils.so navigatorshell shrimp
+
+## libresarb.so.1: 8 syms, 1 users
+  syms: resarb_begin resarb_deregister resarb_end resarb_get_count resarb_get_event_avail resarb_more resarb_register resarb_released
+  users: libstagefrighthw.so
+
+## libslog2.so.1: 7 syms, 17 users
+  syms: slog2_get_verbosity slog2_register slog2_reset slog2_set_default_buffer slog2_set_verbosity slog2c slog2f
+  users: android_launcher android_resmgr binder epolld libandroid_servers.so libbionic.so libchost_log.so libchromium_net.so libcutils.so liblog.so libutils.so logcat logd logwrapper lowmemorykiller navigatorshell shrimp
+
+## libslog2.so.1 (inferred): 7 syms, 11 users
+  syms: _FSinx inotify_add_watch inotify_init inotify_rm_watch pps_decoder_push_array procmgr_timer_tolerance vslog2f
+  users: exe_shim libRS.so libRSCpuRef.so libbionic.so libchost.so libchost_log.so libchromium_net.so libcutils.so liblog.so libmedia.so logwrapper
+
+## libscreen.so.1: 6 syms, 2 users
+  syms: screen_create_session_type screen_destroy_session screen_get_device_property_cv screen_notify screen_set_session_property_iv screen_set_session_property_pv
+  users: libframebuffer_screen.so libinput.so
+
+## libtrackpad_converter.so.1: 6 syms, 1 users
+  syms: TrackpadAlgoChange TrackpadAlgoCreateObject TrackpadAlgoDestroyObject TrackpadAlgoInit TrackpadSetXSensitivity TrackpadSetYSensitivity
+  users: libandroid_runtime.so
+
+## libcontext.so.1: 6 syms, 1 users
+  syms: ccl_event_keys_add ccl_event_keys_create ccl_event_keys_delete ccl_init ccl_oncustom_event ccl_shutdown
+  users: libandroid_runtime.so
+
+## libsensor.so.1: 4 syms, 1 users
+  syms: sensor_delete sensor_exists sensor_get_event sensor_new
+  users: libutils.so
+
+## libVoiceServices.so.1: 4 syms, 1 users
+  syms: vs_cancel_recognition vs_init_recognition_options vs_microphone_off vs_start_recognition
+  users: libspeech_jni.so
+
+## libasound.so.2: 2 syms, 1 users
+  syms: snd_mixer_open_pcm snd_pcm_plugin_set_enable
+  users: audio.primary.default.so
+
+## libinput_client.so.1: 1 syms, 1 users
+  syms: ictrl_cursor_changed
+  users: libjni_BlackBerryIME.so
+
+## libnbutil.so.1: 1 syms, 1 users
+  syms: arc4random
+  users: libbionic.so
+
+## libbb_a11y_at.so.1: 1 syms, 1 users
+  syms: bb_a11y_accessible_alloc_array
+  users: libandroid_servers.so
+
+## libclipboard.so.1: 1 syms, 1 users
+  syms: clipboard_write_time
+  users: libandroid_servers.so
+
+TOTAL unique unresolved 353

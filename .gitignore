@@ -1,0 +1,46 @@
+# Large files and other people's work stay out of the repo. Each README says where to get them.
+
+# Never commit: private keys, and the device host keys inside the AutoRoot toolkit
+leap/keys-orig/
+*_rsa_key
+id_rsa*
+
+# Firmware, toolkits and downloaded apps (big, and not ours to redistribute)
+leap/firmware/
+leap/v3root/
+leap/apks/
+playbook/firmware/
+playbook/third-party/
+playbook/apks/
+playbook/bars/
+delete/
+
+# SDKs, toolchains and build trees (rebuild with the steps in playbook/README.md)
+playbook/sdk/
+playbook/.venv/
+playbook/openssl/*
+!playbook/openssl/build.sh
+!playbook/openssl/shim/
+!playbook/openssl/test/
+playbook/openssl/test/tlstest
+playbook/webkit/*
+!playbook/webkit/patches/
+!playbook/webkit/qnx-compat/
+!playbook/webkit/playbook-toolchain.cmake
+
+# Copies of BlackBerry system files pulled off the device
+playbook/device-backups/
+playbook/analysis/crash-core/
+playbook/analysis/bb10rt/*
+!playbook/analysis/bb10rt/*.py
+!playbook/analysis/bb10rt/unresolved.txt
+!playbook/analysis/bb10rt/*.needed
+playbook/analysis/image-diff/*
+!playbook/analysis/image-diff/tree-changed.txt
+!playbook/analysis/image-diff/content-changed.txt
+
+# Upstream bb10mt clone: we ship our change as common/bb10mt-leap-support.patch
+common/bb10mt-src/
+
+__pycache__/
+*.core

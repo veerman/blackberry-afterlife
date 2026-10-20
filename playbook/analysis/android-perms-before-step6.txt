@@ -1,0 +1,727 @@
+
+/apps/sys.android.gYABgKAOw1czN6neiAT72SGO.ns:
+total 32
+drwxrwxrwx   4 apps      10044          4096 Mar 19  2014 .
+drwxr-xr-x  57 apps      nto            4096 Oct 03 01:34 ..
+drwxrwxrwx   2 apps      10044          4096 Mar 19  2014 META-INF
+drwxrwxrwx   6 apps      10044          4096 Mar 19  2014 native
+
+/apps/sys.android.gYABgKAOw1czN6neiAT72SGO.ns/META-INF:
+total 452
+drwxrwxrwx   2 apps      10044          4096 Mar 19  2014 .
+drwxrwxrwx   4 apps      10044          4096 Mar 19  2014 ..
+-rwxrwxrwx   1 apps      10044           675 Mar 19  2014 AUTHOR.EC
+-rwxrwxrwx   1 apps      10044         68031 Mar 19  2014 AUTHOR.SF
+-rwxrwxrwx   1 apps      10044         84931 Mar 19  2014 MANIFEST.MF
+-rwxrwxrwx   1 apps      10044           675 Mar 19  2014 RDK.EC
+-rwxrwxrwx   1 apps      10044         68031 Mar 19  2014 RDK.SF
+
+/apps/sys.android.gYABgKAOw1czN6neiAT72SGO.ns/native:
+total 682
+drwxrwxrwx   6 apps      10044          4096 Mar 19  2014 .
+drwxrwxrwx   4 apps      10044          4096 Mar 19  2014 ..
+-rwxrwxrwx   1 apps      10044             0 Mar 19  2014 autolaunch.cfg
+-rwxrwxrwx   1 apps      10044         11327 Mar 19  2014 blackberry-tablet.xml
+-rwxrwxrwx   1 apps      10044           118 Mar 19  2014 default.cfg
+-rwxrwxrwx   1 apps      10044          2873 Mar 19  2014 icon.png
+drwxrwxrwx   2 apps      10044          4096 Mar 19  2014 images
+-rwxrwxrwx   1 apps      10044         10932 Mar 19  2014 init.cfg
+drwxrwxrwx   2 apps      10044          4096 Mar 19  2014 sbin
+drwxrwxrwx   2 apps      10044          4096 Mar 19  2014 scripts
+-rwxrwxrwx   1 apps      10044        151167 Mar 19  2014 splash-landscape.png
+-rwxrwxrwx   1 apps      10044        145770 Mar 19  2014 splash-portrait.png
+drwxrwxrwx  12 apps      10044          4096 Mar 19  2014 system
+-rwxrwxrwx   1 apps      10044            30 Mar 19  2014 version.txt
+
+/apps/sys.android.gYABgKAOw1czN6neiAT72SGO.ns/native/images:
+total 617
+drwxrwxrwx   2 apps      10044          4096 Mar 19  2014 .
+drwxrwxrwx   6 apps      10044          4096 Mar 19  2014 ..
+-rwxrwxrwx   1 apps      10044        153343 Mar 19  2014 splash-landscape.jpg
+-rwxrwxrwx   1 apps      10044        146910 Mar 19  2014 splash-portrait.jpg
+-rwxrwxrwx   1 apps      10044          2414 Mar 19  2014 virtualkeys-landscape.png
+-rwxrwxrwx   1 apps      10044          1015 Mar 19  2014 virtualkeys-portrait.png
+-rwxrwxrwx   1 apps      10044          1015 Mar 19  2014 virtualkeys.320x80.png
+-rwxrwxrwx   1 apps      10044          2414 Mar 19  2014 virtualkeys.80x320.png
+
+/apps/sys.android.gYABgKAOw1czN6neiAT72SGO.ns/native/sbin:
+total 219
+drwxrwxrwx   2 apps      10044          4096 Mar 19  2014 .
+drwxrwxrwx   6 apps      10044          4096 Mar 19  2014 ..
+-rwxrwxrwx   1 apps      10044         85352 Mar 19  2014 adbd
+-rwxrwxrwx   1 apps      10044         18338 Mar 19  2014 android_launcher
+
+/apps/sys.android.gYABgKAOw1czN6neiAT72SGO.ns/native/scripts:
+total 180
+drwxrwxrwx   2 apps      10044          4096 Mar 19  2014 .
+drwxrwxrwx   6 apps      10044          4096 Mar 19  2014 ..
+-rwxrwxrwx   1 apps      10044           626 Mar 19  2014 android-player-cmd.sh
+-rwxrwxrwx   1 apps      10044         73483 Mar 19  2014 capture-logs.py
+-rwxrwxrwx   1 apps      10044           523 Mar 19  2014 clean-android-core.sh
+-rwxrwxrwx   1 apps      10044            80 Mar 19  2014 kill-android-apps.sh
+-rwxrwxrwx   1 apps      10044           444 Mar 19  2014 kill-android-core.sh
+-rwxrwxrwx   1 apps      10044           150 Mar 19  2014 launch-android.sh
+-rwxrwxrwx   1 apps      10044           251 Mar 19  2014 launch-app.sh
+-rwxrwxrwx   1 apps      10044           534 Mar 19  2014 ls-oom-adj.sh
+-rwxrwxrwx   1 apps      10044            88 Mar 19  2014 ps-android-apps.sh
+-rwxrwxrwx   1 apps      10044           111 Mar 19  2014 ps-android-core.sh
+-rwxrwxrwx   1 apps      10044           293 Mar 19  2014 reboot-android.sh
+-rwxrwxrwx   1 apps      10044          2189 Mar 19  2014 restart-android-core.sh
+-rwxrwxrwx   1 apps      10044          1016 Oct 03 01:16 start-android-core.sh
+
+/apps/sys.android.gYABgKAOw1czN6neiAT72SGO.ns/native/system:
+total 100
+drwxrwxrwx  12 apps      10044          4096 Mar 19  2014 .
+drwxrwxrwx   6 apps      10044          4096 Mar 19  2014 ..
+drwxrwxrwx   2 apps      10044          4096 Mar 19  2014 app
+drwxrwxrwx   2 apps      10044          4096 Mar 19  2014 bin
+-rwxrwxrwx   1 apps      10044          1543 Mar 19  2014 build.cfg
+drwxrwxrwx   4 apps      10044          4096 Mar 19  2014 etc
+drwxrwxrwx   2 apps      10044          4096 Mar 19  2014 fonts
+drwxrwxrwx   2 apps      10044          4096 Mar 19  2014 framework
+drwxrwxrwx   5 apps      10044          4096 Mar 19  2014 lib
+drwxrwxrwx   3 apps      10044          4096 Mar 19  2014 media
+drwxrwxrwx   3 apps      10044          4096 Mar 19  2014 tts
+drwxrwxrwx   7 apps      10044          4096 Mar 19  2014 usr
+drwxrwxrwx   2 apps      10044          4096 Mar 19  2014 xbin
+
+/apps/sys.android.gYABgKAOw1czN6neiAT72SGO.ns/native/system/app:
+total 39254
+drwxrwxrwx   2 apps      10044          4096 Mar 19  2014 .
+drwxrwxrwx  12 apps      10044          4096 Mar 19  2014 ..
+-rwxrwxrwx   1 apps      10044        191384 Mar 19  2014 AccountAndSyncSettings.apk
+-rwxrwxrwx   1 apps      10044         38048 Mar 19  2014 AccountAndSyncSettings.odex
+-rwxrwxrwx   1 apps      10044         14489 Mar 19  2014 ApplicationsProvider.apk
+-rwxrwxrwx   1 apps      10044         19944 Mar 19  2014 ApplicationsProvider.odex
+-rwxrwxrwx   1 apps      10044         57488 Mar 19  2014 BlackBerryIME.apk
+-rwxrwxrwx   1 apps      10044         18912 Mar 19  2014 BlackBerryIME.odex
+-rwxrwxrwx   1 apps      10044        290044 Mar 19  2014 Bluetooth.apk
+-rwxrwxrwx   1 apps      10044        163424 Mar 19  2014 Bluetooth.odex
+-rwxrwxrwx   1 apps      10044        793775 Mar 19  2014 Browser.apk
+-rwxrwxrwx   1 apps      10044        280048 Mar 19  2014 Browser.odex
+-rwxrwxrwx   1 apps      10044         47481 Mar 19  2014 Calculator.apk
+-rwxrwxrwx   1 apps      10044         78456 Mar 19  2014 Calculator.odex
+-rwxrwxrwx   1 apps      10044        408667 Mar 19  2014 Calendar.apk
+-rwxrwxrwx   1 apps      10044        339688 Mar 19  2014 Calendar.odex
+-rwxrwxrwx   1 apps      10044         48997 Mar 19  2014 CalendarProvider.apk
+-rwxrwxrwx   1 apps      10044        196720 Mar 19  2014 CalendarProvider.odex
+-rwxrwxrwx   1 apps      10044        300515 Mar 19  2014 Camera.apk
+-rwxrwxrwx   1 apps      10044        239352 Mar 19  2014 Camera.odex
+-rwxrwxrwx   1 apps      10044         84056 Mar 19  2014 CertInstaller.apk
+-rwxrwxrwx   1 apps      10044         34968 Mar 19  2014 CertInstaller.odex
+-rwxrwxrwx   1 apps      10044       1088423 Mar 19  2014 Contacts.apk
+-rwxrwxrwx   1 apps      10044        399664 Mar 19  2014 Contacts.odex
+-rwxrwxrwx   1 apps      10044         21315 Mar 19  2014 ContactsProvider.apk
+-rwxrwxrwx   1 apps      10044        315296 Mar 19  2014 ContactsProvider.odex
+-rwxrwxrwx   1 apps      10044          7387 Mar 19  2014 DefaultContainerService.apk
+-rwxrwxrwx   1 apps      10044         14840 Mar 19  2014 DefaultContainerService.odex
+-rwxrwxrwx   1 apps      10044        298307 Mar 19  2014 DeskClock.apk
+-rwxrwxrwx   1 apps      10044         84392 Mar 19  2014 DeskClock.odex
+-rwxrwxrwx   1 apps      10044         50035 Mar 19  2014 Development.apk
+-rwxrwxrwx   1 apps      10044        153336 Mar 19  2014 Development.odex
+-rwxrwxrwx   1 apps      10044        123375 Mar 19  2014 DownloadProvider.apk
+-rwxrwxrwx   1 apps      10044        162112 Mar 19  2014 DownloadProvider.odex
+-rwxrwxrwx   1 apps      10044         79203 Mar 19  2014 DownloadProviderUi.apk
+-rwxrwxrwx   1 apps      10044         31248 Mar 19  2014 DownloadProviderUi.odex
+-rwxrwxrwx   1 apps      10044         20211 Mar 19  2014 DrmProvider.apk
+-rwxrwxrwx   1 apps      10044         12720 Mar 19  2014 DrmProvider.odex
+-rwxrwxrwx   1 apps      10044        688747 Mar 19  2014 Email.apk
+-rwxrwxrwx   1 apps      10044       1060152 Mar 19  2014 Email.odex
+-rwxrwxrwx   1 apps      10044        363622 Mar 19  2014 Gallery3D.apk
+-rwxrwxrwx   1 apps      10044        459456 Mar 19  2014 Gallery3D.odex
+-rwxrwxrwx   1 apps      10044         13350 Mar 19  2014 HTMLViewer.apk
+-rwxrwxrwx   1 apps      10044          6848 Mar 19  2014 HTMLViewer.odex
+-rwxrwxrwx   1 apps      10044          6490 Mar 19  2014 InAppBilling.apk
+-rwxrwxrwx   1 apps      10044         29384 Mar 19  2014 InAppBilling.odex
+-rwxrwxrwx   1 apps      10044          8278 Mar 19  2014 MarketIntent.apk
+-rwxrwxrwx   1 apps      10044          4272 Mar 19  2014 MarketIntent.odex
+-rwxrwxrwx   1 apps      10044         15633 Mar 19  2014 MediaProvider.apk
+-rwxrwxrwx   1 apps      10044         82840 Mar 19  2014 MediaProvider.odex
+-rwxrwxrwx   1 apps      10044        863392 Mar 19  2014 Mms.apk
+-rwxrwxrwx   1 apps      10044        574024 Mar 19  2014 Mms.odex
+-rwxrwxrwx   1 apps      10044          6621 Mar 19  2014 NativeBrowser.apk
+-rwxrwxrwx   1 apps      10044          3008 Mar 19  2014 NativeBrowser.odex
+-rwxrwxrwx   1 apps      10044         14306 Mar 19  2014 NativeEmail.apk
+-rwxrwxrwx   1 apps      10044          8320 Mar 19  2014 NativeEmail.odex
+-rwxrwxrwx   1 apps      10044         28978 Mar 19  2014 NativeFileViewer.apk
+-rwxrwxrwx   1 apps      10044          6344 Mar 19  2014 NativeFileViewer.odex
+-rwxrwxrwx   1 apps      10044         58990 Mar 19  2014 NativePhone.apk
+-rwxrwxrwx   1 apps      10044          4616 Mar 19  2014 NativePhone.odex
+-rwxrwxrwx   1 apps      10044         58823 Mar 19  2014 NativeSmsMms.apk
+-rwxrwxrwx   1 apps      10044          3328 Mar 19  2014 NativeSmsMms.odex
+-rwxrwxrwx   1 apps      10044        154334 Mar 19  2014 PackageInstaller.apk
+-rwxrwxrwx   1 apps      10044         24216 Mar 19  2014 PackageInstaller.odex
+-rwxrwxrwx   1 apps      10044       1903975 Mar 19  2014 Phone.apk
+-rwxrwxrwx   1 apps      10044        562312 Mar 19  2014 Phone.odex
+-rwxrwxrwx   1 apps      10044         10502 Mar 19  2014 PicoTts.apk
+-rwxrwxrwx   1 apps      10044         12528 Mar 19  2014 PicoTts.odex
+-rwxrwxrwx   1 apps      10044          1824 Mar 19  2014 Provision.odex
+-rwxrwxrwx   1 apps      10044       1105176 Mar 19  2014 QNXAppLauncher.apk
+-rwxrwxrwx   1 apps      10044         39376 Mar 19  2014 QNXAppLauncher.odex
+-rwxrwxrwx   1 apps      10044        187391 Mar 19  2014 QuickSearchBox.apk
+-rwxrwxrwx   1 apps      10044        306080 Mar 19  2014 QuickSearchBox.odex
+-rwxrwxrwx   1 apps      10044       3640281 Mar 19  2014 Settings.apk
+-rwxrwxrwx   1 apps      10044        609600 Mar 19  2014 Settings.odex
+-rwxrwxrwx   1 apps      10044         17477 Mar 19  2014 SettingsProvider.apk
+-rwxrwxrwx   1 apps      10044         52280 Mar 19  2014 SettingsProvider.odex
+-rwxrwxrwx   1 apps      10044         67025 Mar 19  2014 SoundRecorder.apk
+-rwxrwxrwx   1 apps      10044         25272 Mar 19  2014 SoundRecorder.odex
+-rwxrwxrwx   1 apps      10044        156701 Mar 19  2014 SystemUI.apk
+-rwxrwxrwx   1 apps      10044        104416 Mar 19  2014 SystemUI.odex
+-rwxrwxrwx   1 apps      10044         10833 Mar 19  2014 TelephonyProvider.apk
+-rwxrwxrwx   1 apps      10044         91656 Mar 19  2014 TelephonyProvider.odex
+-rwxrwxrwx   1 apps      10044          7946 Mar 19  2014 TtsService.apk
+-rwxrwxrwx   1 apps      10044         36032 Mar 19  2014 TtsService.odex
+-rwxrwxrwx   1 apps      10044          3581 Mar 19  2014 UserDictionaryProvider.apk
+-rwxrwxrwx   1 apps      10044         14936 Mar 19  2014 UserDictionaryProvider.odex
+-rwxrwxrwx   1 apps      10044         14713 Mar 19  2014 VpnServices.apk
+-rwxrwxrwx   1 apps      10044         29968 Mar 19  2014 VpnServices.odex
+
+/apps/sys.android.gYABgKAOw1czN6neiAT72SGO.ns/native/system/bin:
+total 2862
+drwxrwxrwx   2 apps      10044          4096 Mar 19  2014 .
+drwxrwxrwx  12 apps      10044          4096 Mar 19  2014 ..
+-rwxrwxrwx   1 apps      10044           191 Mar 19  2014 am
+-rwxrwxrwx   1 apps      10044         19176 Mar 19  2014 app_process
+-rwxrwxrwx   1 apps      10044         46341 Mar 19  2014 binder
+-rwxrwxrwx   1 apps      10044           199 Mar 19  2014 bmgr
+-rwxrwxrwx   1 apps      10044         44905 Mar 19  2014 bootanimation
+-rwxrwxrwx   1 apps      10044          8594 Mar 19  2014 bugreport
+-rwxrwxrwx   1 apps      10044         33708 Mar 19  2014 cat
+-rwxrwxrwx   1 apps      10044         33708 Mar 19  2014 chmod
+-rwxrwxrwx   1 apps      10044         33708 Mar 19  2014 chown
+-rwxrwxrwx   1 apps      10044         33708 Mar 19  2014 cmp
+-rwxrwxrwx   1 apps      10044         13026 Mar 19  2014 dalvikvm
+-rwxrwxrwx   1 apps      10044         17713 Mar 19  2014 dexopt
+-rwxrwxrwx   1 apps      10044         44014 Mar 19  2014 dumpstate
+-rwxrwxrwx   1 apps      10044         19154 Mar 19  2014 dumpsys
+-rwxrwxrwx   1 apps      10044         12923 Mar 19  2014 dvz
+-rwxrwxrwx   1 apps      10044         33708 Mar 19  2014 getprop
+-rwxrwxrwx   1 apps      10044         13413 Mar 19  2014 gzip
+-rwxrwxrwx   1 apps      10044           194 Mar 19  2014 ime
+-rwxrwxrwx   1 apps      10044         72149 Mar 19  2014 init
+-rwxrwxrwx   1 apps      10044           201 Mar 19  2014 input
+-rwxrwxrwx   1 apps      10044         37824 Mar 19  2014 installd
+-rwxrwxrwx   1 apps      10044         19710 Mar 19  2014 keystore
+-rwxrwxrwx   1 apps      10044         33708 Mar 19  2014 ln
+-rwxrwxrwx   1 apps      10044         33708 Mar 19  2014 log
+-rwxrwxrwx   1 apps      10044         23371 Mar 19  2014 logcat
+-rwxrwxrwx   1 apps      10044         19659 Mar 19  2014 logd
+-rwxrwxrwx   1 apps      10044         19180 Mar 19  2014 logwrapper
+-rwxrwxrwx   1 apps      10044         31143 Mar 19  2014 lowmemorykiller
+-rwxrwxrwx   1 apps      10044         33708 Mar 19  2014 ls
+-rwxrwxrwx   1 apps      10044         13475 Mar 19  2014 mediaserver
+-rwxrwxrwx   1 apps      10044         33708 Mar 19  2014 mkdir
+-rwxrwxrwx   1 apps      10044           205 Mar 19  2014 monkey
+-rwxrwxrwx   1 apps      10044         33708 Mar 19  2014 mv
+-rwxrwxrwx   1 apps      10044         13534 Mar 19  2014 netcfg
+-rwxrwxrwx   1 apps      10044         67010 Mar 19  2014 omx_tests
+-rwxrwxrwx   1 apps      10044           191 Mar 19  2014 pm
+-rwxrwxrwx   1 apps      10044         33708 Mar 19  2014 printenv
+-rwxrwxrwx   1 apps      10044         33708 Mar 19  2014 ps
+-rwxrwxrwx   1 apps      10044         13197 Mar 19  2014 rild
+-rwxrwxrwx   1 apps      10044         33708 Mar 19  2014 rm
+-rwxrwxrwx   1 apps      10044         33708 Mar 19  2014 rmdir
+-rwxrwxrwx   1 apps      10044         20052 Mar 19  2014 service
+-rwxrwxrwx   1 apps      10044         19336 Mar 19  2014 servicemanager
+-rwxrwxrwx   1 apps      10044         33708 Mar 19  2014 setprop
+-rwxrwxrwx   1 apps      10044        174806 Mar 19  2014 sh
+-rwxrwxrwx   1 apps      10044         33708 Mar 19  2014 sleep
+-rwxrwxrwx   1 apps      10044         33708 Mar 19  2014 start
+-rwxrwxrwx   1 apps      10044         33708 Mar 19  2014 stop
+-rwxrwxrwx   1 apps      10044         13491 Mar 19  2014 surfaceflinger
+-rwxrwxrwx   1 apps      10044           192 Mar 19  2014 svc
+-rwxrwxrwx   1 apps      10044          8690 Mar 19  2014 system_server
+-rwxrwxrwx   1 apps      10044         33708 Mar 19  2014 toolbox
+
+/apps/sys.android.gYABgKAOw1czN6neiAT72SGO.ns/native/system/etc:
+total 167
+drwxrwxrwx   4 apps      10044          4096 Mar 19  2014 .
+drwxrwxrwx  12 apps      10044          4096 Mar 19  2014 ..
+-rwxrwxrwx   1 apps      10044         41194 Mar 19  2014 NOTICE.html.gz
+-rwxrwxrwx   1 apps      10044          6575 Mar 19  2014 apns-conf.xml
+-rwxrwxrwx   1 apps      10044           935 Mar 19  2014 dbus.conf
+-rwxrwxrwx   1 apps      10044         10698 Mar 19  2014 event-log-tags
+-rwxrwxrwx   1 apps      10044            25 Mar 19  2014 hosts
+-rwxrwxrwx   1 apps      10044          1200 Mar 19  2014 init.goldfish.sh
+-rwxrwxrwx   1 apps      10044          6376 Mar 19  2014 media_profiles.xml
+drwxrwxrwx   2 apps      10044          4096 Mar 19  2014 permissions
+drwxrwxrwx   2 apps      10044          4096 Mar 19  2014 security
+-rwxrwxrwx   1 apps      10044           317 Mar 19  2014 vold.conf
+
+/apps/sys.android.gYABgKAOw1czN6neiAT72SGO.ns/native/system/etc/permissions:
+total 53
+drwxrwxrwx   2 apps      10044          4096 Mar 19  2014 .
+drwxrwxrwx   4 apps      10044          4096 Mar 19  2014 ..
+-rwxrwxrwx   1 apps      10044           826 Mar 19  2014 android.hardware.camera.front.xml
+-rwxrwxrwx   1 apps      10044           826 Mar 19  2014 android.hardware.camera.xml
+-rwxrwxrwx   1 apps      10044           942 Mar 19  2014 android.hardware.location.gps.xml
+-rwxrwxrwx   1 apps      10044           806 Mar 19  2014 android.hardware.sensor.gyroscope.xml
+-rwxrwxrwx   1 apps      10044           985 Mar 19  2014 android.hardware.touchscreen.multitouch.xml
+-rwxrwxrwx   1 apps      10044           829 Mar 19  2014 android.hardware.wifi.xml
+-rwxrwxrwx   1 apps      10044           828 Mar 19  2014 com.android.location.provider.xml
+-rwxrwxrwx   1 apps      10044          3105 Mar 19  2014 handheld_core_hardware.xml
+-rwxrwxrwx   1 apps      10044          8098 Mar 19  2014 platform.xml
+
+/apps/sys.android.gYABgKAOw1czN6neiAT72SGO.ns/native/system/etc/security:
+total 242
+drwxrwxrwx   2 apps      10044          4096 Mar 19  2014 .
+drwxrwxrwx   4 apps      10044          4096 Mar 19  2014 ..
+-rwxrwxrwx   1 apps      10044        113861 Mar 19  2014 cacerts.bks
+-rwxrwxrwx   1 apps      10044          1311 Mar 19  2014 otacerts.zip
+
+/apps/sys.android.gYABgKAOw1czN6neiAT72SGO.ns/native/system/fonts:
+total 11545
+drwxrwxrwx   2 apps      10044          4096 Mar 19  2014 .
+drwxrwxrwx  12 apps      10044          4096 Mar 19  2014 ..
+-rwxrwxrwx   1 apps      10044          6880 Mar 19  2014 Clockopia.ttf
+-rwxrwxrwx   1 apps      10044        194488 Mar 19  2014 DroidSans-Bold.ttf
+-rwxrwxrwx   1 apps      10044        190776 Mar 19  2014 DroidSans.ttf
+-rwxrwxrwx   1 apps      10044         35880 Mar 19  2014 DroidSansArabic.ttf
+-rwxrwxrwx   1 apps      10044       3725920 Mar 19  2014 DroidSansFallback.ttf
+-rwxrwxrwx   1 apps      10044         23076 Mar 19  2014 DroidSansHebrew.ttf
+-rwxrwxrwx   1 apps      10044        119380 Mar 19  2014 DroidSansMono.ttf
+-rwxrwxrwx   1 apps      10044         36028 Mar 19  2014 DroidSansThai.ttf
+-rwxrwxrwx   1 apps      10044        185228 Mar 19  2014 DroidSerif-Bold.ttf
+-rwxrwxrwx   1 apps      10044        190304 Mar 19  2014 DroidSerif-BoldItalic.ttf
+-rwxrwxrwx   1 apps      10044        177560 Mar 19  2014 DroidSerif-Italic.ttf
+-rwxrwxrwx   1 apps      10044        172916 Mar 19  2014 DroidSerif-Regular.ttf
+-rwxrwxrwx   1 apps      10044        103472 Mar 19  2014 MyriadPro-Bold.otf
+-rwxrwxrwx   1 apps      10044        107056 Mar 19  2014 MyriadPro-BoldIt.otf
+-rwxrwxrwx   1 apps      10044        104208 Mar 19  2014 MyriadPro-BoldSemiCn.otf
+-rwxrwxrwx   1 apps      10044        106396 Mar 19  2014 MyriadPro-BoldSemiCnIt.otf
+-rwxrwxrwx   1 apps      10044        105656 Mar 19  2014 MyriadPro-It.otf
+-rwxrwxrwx   1 apps      10044        104388 Mar 19  2014 MyriadPro-Regular.otf
+-rwxrwxrwx   1 apps      10044        102308 Mar 19  2014 MyriadPro-SemiCn.otf
+-rwxrwxrwx   1 apps      10044        105668 Mar 19  2014 MyriadPro-SemiCnIt.otf
+
+/apps/sys.android.gYABgKAOw1czN6neiAT72SGO.ns/native/system/framework:
+total 43543
+drwxrwxrwx   2 apps      10044          4096 Mar 19  2014 .
+drwxrwxrwx  12 apps      10044          4096 Mar 19  2014 ..
+-rwxrwxrwx   1 apps      10044           313 Mar 19  2014 am.jar
+-rwxrwxrwx   1 apps      10044         27768 Mar 19  2014 am.odex
+-rwxrwxrwx   1 apps      10044           313 Mar 19  2014 android.policy.jar
+-rwxrwxrwx   1 apps      10044        201840 Mar 19  2014 android.policy.odex
+-rwxrwxrwx   1 apps      10044           313 Mar 19  2014 android.test.runner.jar
+-rwxrwxrwx   1 apps      10044        193904 Mar 19  2014 android.test.runner.odex
+-rwxrwxrwx   1 apps      10044           313 Mar 19  2014 bmgr.jar
+-rwxrwxrwx   1 apps      10044         13696 Mar 19  2014 bmgr.odex
+-rwxrwxrwx   1 apps      10044           313 Mar 19  2014 bouncycastle.jar
+-rwxrwxrwx   1 apps      10044        776680 Mar 19  2014 bouncycastle.odex
+-rwxrwxrwx   1 apps      10044           313 Mar 19  2014 com.android.location.provider.jar
+-rwxrwxrwx   1 apps      10044          7240 Mar 19  2014 com.android.location.provider.odex
+-rwxrwxrwx   1 apps      10044           313 Mar 19  2014 core-junit.jar
+-rwxrwxrwx   1 apps      10044         23952 Mar 19  2014 core-junit.odex
+-rwxrwxrwx   1 apps      10044         22926 Mar 19  2014 core.jar
+-rwxrwxrwx   1 apps      10044       4800368 Mar 19  2014 core.odex
+-rwxrwxrwx   1 apps      10044           313 Mar 19  2014 ext.jar
+-rwxrwxrwx   1 apps      10044       1391352 Mar 19  2014 ext.odex
+-rwxrwxrwx   1 apps      10044       5150926 Mar 19  2014 framework-res.apk
+-rwxrwxrwx   1 apps      10044         12413 Mar 19  2014 framework.jar
+-rwxrwxrwx   1 apps      10044       7696472 Mar 19  2014 framework.odex
+-rwxrwxrwx   1 apps      10044           313 Mar 19  2014 ime.jar
+-rwxrwxrwx   1 apps      10044          6608 Mar 19  2014 ime.odex
+-rwxrwxrwx   1 apps      10044           313 Mar 19  2014 input.jar
+-rwxrwxrwx   1 apps      10044          4296 Mar 19  2014 input.odex
+-rwxrwxrwx   1 apps      10044           313 Mar 19  2014 javax.obex.jar
+-rwxrwxrwx   1 apps      10044         60488 Mar 19  2014 javax.obex.odex
+-rwxrwxrwx   1 apps      10044           313 Mar 19  2014 monkey.jar
+-rwxrwxrwx   1 apps      10044         89512 Mar 19  2014 monkey.odex
+-rwxrwxrwx   1 apps      10044           313 Mar 19  2014 pm.jar
+-rwxrwxrwx   1 apps      10044         27656 Mar 19  2014 pm.odex
+-rwxrwxrwx   1 apps      10044           313 Mar 19  2014 services.jar
+-rwxrwxrwx   1 apps      10044       1608064 Mar 19  2014 services.odex
+-rwxrwxrwx   1 apps      10044           313 Mar 19  2014 sqlite-jdbc.jar
+-rwxrwxrwx   1 apps      10044        147520 Mar 19  2014 sqlite-jdbc.odex
+-rwxrwxrwx   1 apps      10044           313 Mar 19  2014 svc.jar
+-rwxrwxrwx   1 apps      10044          8288 Mar 19  2014 svc.odex
+
+/apps/sys.android.gYABgKAOw1czN6neiAT72SGO.ns/native/system/lib:
+total 72995
+drwxrwxrwx   5 apps      10044          4096 Mar 19  2014 .
+drwxrwxrwx  12 apps      10044          4096 Mar 19  2014 ..
+drwxrwxrwx   2 apps      10044          4096 Mar 19  2014 egl
+drwxrwxrwx   2 apps      10044          4096 Mar 19  2014 hw
+-rwxrwxrwx   1 apps      10044         99586 Mar 19  2014 libEGL.so
+-rwxrwxrwx   1 apps      10044         12825 Mar 19  2014 libETC1.so
+-rwxrwxrwx   1 apps      10044        391972 Mar 19  2014 libFFTEm.so
+-rwxrwxrwx   1 apps      10044         66746 Mar 19  2014 libGLESv1_CM.so
+-rwxrwxrwx   1 apps      10044         49883 Mar 19  2014 libGLESv2.so
+-rwxrwxrwx   1 apps      10044        179907 Mar 19  2014 libOpenSLES.so
+-rwxrwxrwx   1 apps      10044         13305 Mar 19  2014 libSR_AudioIn.so
+-rwxrwxrwx   1 apps      10044         95413 Mar 19  2014 libacc.so
+-rwxrwxrwx   1 apps      10044        129324 Mar 19  2014 libandroid.so
+-rwxrwxrwx   1 apps      10044       1250400 Mar 19  2014 libandroid_runtime.so
+-rwxrwxrwx   1 apps      10044        145046 Mar 19  2014 libandroid_servers.so
+-rwxrwxrwx   1 apps      10044         86762 Mar 19  2014 libaudio.so
+-rwxrwxrwx   1 apps      10044         34077 Mar 19  2014 libaudioeffect_jni.so
+-rwxrwxrwx   1 apps      10044        528301 Mar 19  2014 libaudioflinger.so
+-rwxrwxrwx   1 apps      10044         43414 Mar 19  2014 libaudiopolicy.so
+-rwxrwxrwx   1 apps      10044        329272 Mar 19  2014 libbinder.so
+-rwxrwxrwx   1 apps      10044         87678 Mar 19  2014 libbionic.so
+-rwxrwxrwx   1 apps      10044        122967 Mar 19  2014 libcamera.so
+-rwxrwxrwx   1 apps      10044        158468 Mar 19  2014 libcamera_client.so
+-rwxrwxrwx   1 apps      10044        101818 Mar 19  2014 libcameraservice.so
+-rwxrwxrwx   1 apps      10044       1656119 Mar 19  2014 libcrypto.so
+-rwxrwxrwx   1 apps      10044          8129 Mar 19  2014 libctest.so
+-rwxrwxrwx   1 apps      10044        119990 Mar 19  2014 libcutils.so
+-rwxrwxrwx   1 apps      10044          7390 Mar 19  2014 libdl.so
+-rwxrwxrwx   1 apps      10044         64683 Mar 19  2014 libdrm1.so
+-rwxrwxrwx   1 apps      10044         22973 Mar 19  2014 libdrm1_jni.so
+-rwxrwxrwx   1 apps      10044       1285282 Mar 19  2014 libdvm.so
+-rwxrwxrwx   1 apps      10044         17555 Mar 19  2014 libeffects.so
+-rwxrwxrwx   1 apps      10044         19821 Mar 19  2014 libemoji.so
+-rwxrwxrwx   1 apps      10044         63326 Mar 19  2014 libexif_android.so
+-rwxrwxrwx   1 apps      10044        176494 Mar 19  2014 libexpat.so
+-rwxrwxrwx   1 apps      10044         17832 Mar 19  2014 libframebuffer_screen.so
+-rwxrwxrwx   1 apps      10044         91022 Mar 19  2014 libgui.so
+-rwxrwxrwx   1 apps      10044          7887 Mar 19  2014 libhardware.so
+-rwxrwxrwx   1 apps      10044         19371 Mar 19  2014 libhardware_legacy.so
+-rwxrwxrwx   1 apps      10044       2136879 Mar 19  2014 libicui18n_android.so
+-rwxrwxrwx   1 apps      10044       1513792 Mar 19  2014 libicuuc_android.so
+-rwxrwxrwx   1 apps      10044         12519 Mar 19  2014 libinstallatlaunch.so
+-rwxrwxrwx   1 apps      10044         27386 Mar 19  2014 libjni_latinime.so
+-rwxrwxrwx   1 apps      10044        152946 Mar 19  2014 libjni_pinyinime.so
+-rwxrwxrwx   1 apps      10044         12275 Mar 19  2014 libjnigraphics.so
+-rwxrwxrwx   1 apps      10044        261376 Mar 19  2014 libjpeg_android.so
+-rwxrwxrwx   1 apps      10044         23257 Mar 19  2014 liblog.so
+-rwxrwxrwx   1 apps      10044        120095 Mar 19  2014 libm_android.so
+-rwxrwxrwx   1 apps      10044        823295 Mar 19  2014 libmedia.so
+-rwxrwxrwx   1 apps      10044        115820 Mar 19  2014 libmedia_jni.so
+-rwxrwxrwx   1 apps      10044        383770 Mar 19  2014 libmediaplayerservice.so
+-rwxrwxrwx   1 apps      10044        412060 Mar 19  2014 libnativehelper.so
+-rwxrwxrwx   1 apps      10044         28301 Mar 19  2014 libnetutils.so
+-rwxrwxrwx   1 apps      10044         11927 Mar 19  2014 libnfc_ndef.so
+-rwxrwxrwx   1 apps      10044        221819 Mar 19  2014 libpixelflinger.so
+-rwxrwxrwx   1 apps      10044          7395 Mar 19  2014 libpthread.so
+-rwxrwxrwx   1 apps      10044         60269 Mar 19  2014 libril.so
+-rwxrwxrwx   1 apps      10044        137093 Mar 19  2014 libsensorservice.so
+-rwxrwxrwx   1 apps      10044       1385113 Mar 19  2014 libskia.so
+-rwxrwxrwx   1 apps      10044         71432 Mar 19  2014 libskiagl.so
+-rwxrwxrwx   1 apps      10044         12754 Mar 19  2014 libsocket_android.so
+-rwxrwxrwx   1 apps      10044        381087 Mar 19  2014 libsonivox.so
+-rwxrwxrwx   1 apps      10044         64834 Mar 19  2014 libsoundpool.so
+-rwxrwxrwx   1 apps      10044        630278 Mar 19  2014 libsqlite.so
+-rwxrwxrwx   1 apps      10044         55884 Mar 19  2014 libsqlite_jni.so
+-rwxrwxrwx   1 apps      10044        655966 Mar 19  2014 libsrec_jni.so
+-rwxrwxrwx   1 apps      10044        329490 Mar 19  2014 libssl.so
+-rwxrwxrwx   1 apps      10044       2592594 Mar 19  2014 libstagefright.so
+-rwxrwxrwx   1 apps      10044         73798 Mar 19  2014 libstagefright_amrnb_common.so
+-rwxrwxrwx   1 apps      10044         41546 Mar 19  2014 libstagefright_avc_common.so
+-rwxrwxrwx   1 apps      10044         22779 Mar 19  2014 libstagefright_color_conversion.so
+-rwxrwxrwx   1 apps      10044          7909 Mar 19  2014 libstagefright_enc_common.so
+-rwxrwxrwx   1 apps      10044         80696 Mar 19  2014 libstagefright_foundation.so
+-rwxrwxrwx   1 apps      10044        129343 Mar 19  2014 libstagefright_omx.so
+-rwxrwxrwx   1 apps      10044         13598 Mar 19  2014 libstdc++_android.so
+-rwxrwxrwx   1 apps      10044        377528 Mar 19  2014 libsurfaceflinger.so
+-rwxrwxrwx   1 apps      10044        231529 Mar 19  2014 libsurfaceflinger_client.so
+-rwxrwxrwx   1 apps      10044         19328 Mar 19  2014 libsystem_server.so
+-rwxrwxrwx   1 apps      10044         35013 Mar 19  2014 libsysutils.so
+-rwxrwxrwx   1 apps      10044        394598 Mar 19  2014 libttspico.so
+-rwxrwxrwx   1 apps      10044         29407 Mar 19  2014 libttssynthproxy.so
+-rwxrwxrwx   1 apps      10044        459718 Mar 19  2014 libui.so
+-rwxrwxrwx   1 apps      10044        386786 Mar 19  2014 libutils.so
+-rwxrwxrwx   1 apps      10044        129489 Mar 19  2014 libvorbisidec.so
+-rwxrwxrwx   1 apps      10044      14630931 Mar 19  2014 libwebcore.so
+-rwxrwxrwx   1 apps      10044         19843 Mar 19  2014 libwpa_client.so
+-rwxrwxrwx   1 apps      10044        101750 Mar 19  2014 libz.so
+drwxrwxrwx   2 apps      10044          4096 Mar 19  2014 soundfx
+
+/apps/sys.android.gYABgKAOw1czN6neiAT72SGO.ns/native/system/lib/egl:
+total 388
+drwxrwxrwx   2 apps      10044          4096 Mar 19  2014 .
+drwxrwxrwx   5 apps      10044          4096 Mar 19  2014 ..
+-rwxrwxrwx   1 apps      10044            20 Mar 19  2014 egl.cfg
+-rwxrwxrwx   1 apps      10044        189766 Mar 19  2014 libGLES_android.so
+
+/apps/sys.android.gYABgKAOw1czN6neiAT72SGO.ns/native/system/lib/hw:
+total 304
+drwxrwxrwx   2 apps      10044          4096 Mar 19  2014 .
+drwxrwxrwx   5 apps      10044          4096 Mar 19  2014 ..
+-rwxrwxrwx   1 apps      10044         18896 Mar 19  2014 gps.default.so
+-rwxrwxrwx   1 apps      10044         18910 Mar 19  2014 gralloc.Adreno.so
+-rwxrwxrwx   1 apps      10044         18222 Mar 19  2014 gralloc.SGX.so
+-rwxrwxrwx   1 apps      10044         14020 Mar 19  2014 gralloc.default.so
+-rwxrwxrwx   1 apps      10044         38280 Mar 19  2014 libqnx-ril.so
+-rwxrwxrwx   1 apps      10044         24165 Mar 19  2014 overlay.default.so
+-rwxrwxrwx   1 apps      10044         13422 Mar 19  2014 sensors.default.so
+
+/apps/sys.android.gYABgKAOw1czN6neiAT72SGO.ns/native/system/lib/soundfx:
+total 330
+drwxrwxrwx   2 apps      10044          4096 Mar 19  2014 .
+drwxrwxrwx   5 apps      10044          4096 Mar 19  2014 ..
+-rwxrwxrwx   1 apps      10044        104411 Mar 19  2014 libbundlewrapper.so
+-rwxrwxrwx   1 apps      10044         43224 Mar 19  2014 libreverbwrapper.so
+-rwxrwxrwx   1 apps      10044         12597 Mar 19  2014 libvisualizer.so
+
+/apps/sys.android.gYABgKAOw1czN6neiAT72SGO.ns/native/system/media:
+total 24
+drwxrwxrwx   3 apps      10044          4096 Mar 19  2014 .
+drwxrwxrwx  12 apps      10044          4096 Mar 19  2014 ..
+drwxrwxrwx   6 apps      10044          4096 Mar 19  2014 audio
+
+/apps/sys.android.gYABgKAOw1czN6neiAT72SGO.ns/native/system/media/audio:
+total 48
+drwxrwxrwx   6 apps      10044          4096 Mar 19  2014 .
+drwxrwxrwx   3 apps      10044          4096 Mar 19  2014 ..
+drwxrwxrwx   2 apps      10044          4096 Mar 19  2014 alarms
+drwxrwxrwx   2 apps      10044          4096 Mar 19  2014 notifications
+drwxrwxrwx   2 apps      10044          4096 Mar 19  2014 ringtones
+drwxrwxrwx   2 apps      10044          4096 Mar 19  2014 ui
+
+/apps/sys.android.gYABgKAOw1czN6neiAT72SGO.ns/native/system/media/audio/alarms:
+total 292
+drwxrwxrwx   2 apps      10044          4096 Mar 19  2014 .
+drwxrwxrwx   6 apps      10044          4096 Mar 19  2014 ..
+-rwxrwxrwx   1 apps      10044         16130 Mar 19  2014 Alarm_Beep_01.ogg
+-rwxrwxrwx   1 apps      10044          5898 Mar 19  2014 Alarm_Beep_02.ogg
+-rwxrwxrwx   1 apps      10044         21153 Mar 19  2014 Alarm_Beep_03.ogg
+-rwxrwxrwx   1 apps      10044         11368 Mar 19  2014 Alarm_Buzzer.ogg
+-rwxrwxrwx   1 apps      10044         73946 Mar 19  2014 Alarm_Classic.ogg
+-rwxrwxrwx   1 apps      10044         11160 Mar 19  2014 Alarm_Rooster_02.ogg
+
+/apps/sys.android.gYABgKAOw1czN6neiAT72SGO.ns/native/system/media/audio/notifications:
+total 622
+drwxrwxrwx   2 apps      10044          4096 Mar 19  2014 .
+drwxrwxrwx   6 apps      10044          4096 Mar 19  2014 ..
+-rwxrwxrwx   1 apps      10044         34601 Mar 19  2014 Beat_Box_Android.ogg
+-rwxrwxrwx   1 apps      10044         19121 Mar 19  2014 CaffeineSnake.ogg
+-rwxrwxrwx   1 apps      10044         18659 Mar 19  2014 DearDeer.ogg
+-rwxrwxrwx   1 apps      10044         16985 Mar 19  2014 DontPanic.ogg
+-rwxrwxrwx   1 apps      10044         11950 Mar 19  2014 F1_MissedCall.ogg
+-rwxrwxrwx   1 apps      10044         20983 Mar 19  2014 F1_New_MMS.ogg
+-rwxrwxrwx   1 apps      10044         11941 Mar 19  2014 F1_New_SMS.ogg
+-rwxrwxrwx   1 apps      10044         38517 Mar 19  2014 Heaven.ogg
+-rwxrwxrwx   1 apps      10044         18442 Mar 19  2014 Highwire.ogg
+-rwxrwxrwx   1 apps      10044         15619 Mar 19  2014 KzurbSonar.ogg
+-rwxrwxrwx   1 apps      10044         20052 Mar 19  2014 OnTheHunt.ogg
+-rwxrwxrwx   1 apps      10044         43522 Mar 19  2014 TaDa.ogg
+-rwxrwxrwx   1 apps      10044         18858 Mar 19  2014 Tinkerbell.ogg
+-rwxrwxrwx   1 apps      10044         16487 Mar 19  2014 Voila.ogg
+
+/apps/sys.android.gYABgKAOw1czN6neiAT72SGO.ns/native/system/media/audio/ringtones:
+total 2769
+drwxrwxrwx   2 apps      10044          4096 Mar 19  2014 .
+drwxrwxrwx   6 apps      10044          4096 Mar 19  2014 ..
+-rwxrwxrwx   1 apps      10044         28433 Mar 19  2014 BeatPlucker.ogg
+-rwxrwxrwx   1 apps      10044         30759 Mar 19  2014 BentleyDubs.ogg
+-rwxrwxrwx   1 apps      10044         41828 Mar 19  2014 BirdLoop.ogg
+-rwxrwxrwx   1 apps      10044         30615 Mar 19  2014 CaribbeanIce.ogg
+-rwxrwxrwx   1 apps      10044        206809 Mar 19  2014 CrazyDream.ogg
+-rwxrwxrwx   1 apps      10044         30925 Mar 19  2014 CurveBall.ogg
+-rwxrwxrwx   1 apps      10044        175423 Mar 19  2014 DreamTheme.ogg
+-rwxrwxrwx   1 apps      10044         31563 Mar 19  2014 EtherShake.ogg
+-rwxrwxrwx   1 apps      10044         46425 Mar 19  2014 FriendlyGhost.ogg
+-rwxrwxrwx   1 apps      10044         49978 Mar 19  2014 GameOverGuitar.ogg
+-rwxrwxrwx   1 apps      10044         41094 Mar 19  2014 Growl.ogg
+-rwxrwxrwx   1 apps      10044         15146 Mar 19  2014 InsertCoin.ogg
+-rwxrwxrwx   1 apps      10044         38307 Mar 19  2014 LoopyLounge.ogg
+-rwxrwxrwx   1 apps      10044         34627 Mar 19  2014 LoveFlute.ogg
+-rwxrwxrwx   1 apps      10044         28124 Mar 19  2014 MidEvilJaunt.ogg
+-rwxrwxrwx   1 apps      10044         34864 Mar 19  2014 MildlyAlarming.ogg
+-rwxrwxrwx   1 apps      10044         15563 Mar 19  2014 NewPlayer.ogg
+-rwxrwxrwx   1 apps      10044         36287 Mar 19  2014 Noises1.ogg
+-rwxrwxrwx   1 apps      10044         39025 Mar 19  2014 Noises2.ogg
+-rwxrwxrwx   1 apps      10044         26662 Mar 19  2014 Noises3.ogg
+-rwxrwxrwx   1 apps      10044         32640 Mar 19  2014 OrganDub.ogg
+-rwxrwxrwx   1 apps      10044         59024 Mar 19  2014 Ring_Classic_02.ogg
+-rwxrwxrwx   1 apps      10044         21007 Mar 19  2014 Ring_Digital_02.ogg
+-rwxrwxrwx   1 apps      10044         52809 Mar 19  2014 Ring_Synth_02.ogg
+-rwxrwxrwx   1 apps      10044         43965 Mar 19  2014 Ring_Synth_04.ogg
+-rwxrwxrwx   1 apps      10044         31641 Mar 19  2014 RomancingTheTone.ogg
+-rwxrwxrwx   1 apps      10044         28898 Mar 19  2014 SitarVsSitar.ogg
+-rwxrwxrwx   1 apps      10044         26144 Mar 19  2014 SpringyJalopy.ogg
+-rwxrwxrwx   1 apps      10044         36620 Mar 19  2014 Terminated.ogg
+-rwxrwxrwx   1 apps      10044         26298 Mar 19  2014 TwirlAway.ogg
+-rwxrwxrwx   1 apps      10044         28691 Mar 19  2014 VeryAlarmed.ogg
+-rwxrwxrwx   1 apps      10044         31136 Mar 19  2014 World.ogg
+
+/apps/sys.android.gYABgKAOw1czN6neiAT72SGO.ns/native/system/media/audio/ui:
+total 100
+drwxrwxrwx   2 apps      10044          4096 Mar 19  2014 .
+drwxrwxrwx   6 apps      10044          4096 Mar 19  2014 ..
+-rwxrwxrwx   1 apps      10044          3994 Mar 19  2014 Effect_Tick.ogg
+-rwxrwxrwx   1 apps      10044          6193 Mar 19  2014 KeypressDelete.ogg
+-rwxrwxrwx   1 apps      10044          7972 Mar 19  2014 KeypressReturn.ogg
+-rwxrwxrwx   1 apps      10044          7392 Mar 19  2014 KeypressSpacebar.ogg
+-rwxrwxrwx   1 apps      10044          5194 Mar 19  2014 KeypressStandard.ogg
+-rwxrwxrwx   1 apps      10044          5582 Mar 19  2014 VideoRecord.ogg
+-rwxrwxrwx   1 apps      10044          4851 Mar 19  2014 camera_click.ogg
+
+/apps/sys.android.gYABgKAOw1czN6neiAT72SGO.ns/native/system/tts:
+total 24
+drwxrwxrwx   3 apps      10044          4096 Mar 19  2014 .
+drwxrwxrwx  12 apps      10044          4096 Mar 19  2014 ..
+drwxrwxrwx   2 apps      10044          4096 Mar 19  2014 lang_pico
+
+/apps/sys.android.gYABgKAOw1czN6neiAT72SGO.ns/native/system/tts/lang_pico:
+total 12636
+drwxrwxrwx   2 apps      10044          4096 Mar 19  2014 .
+drwxrwxrwx   3 apps      10044          4096 Mar 19  2014 ..
+-rwxrwxrwx   1 apps      10044        634996 Mar 19  2014 de-DE_gl0_sg.bin
+-rwxrwxrwx   1 apps      10044        440732 Mar 19  2014 de-DE_ta.bin
+-rwxrwxrwx   1 apps      10044        584436 Mar 19  2014 en-GB_kh0_sg.bin
+-rwxrwxrwx   1 apps      10044        412248 Mar 19  2014 en-GB_ta.bin
+-rwxrwxrwx   1 apps      10044        777396 Mar 19  2014 en-US_lh0_sg.bin
+-rwxrwxrwx   1 apps      10044        650668 Mar 19  2014 en-US_ta.bin
+-rwxrwxrwx   1 apps      10044        256744 Mar 19  2014 es-ES_ta.bin
+-rwxrwxrwx   1 apps      10044        605280 Mar 19  2014 es-ES_zl0_sg.bin
+-rwxrwxrwx   1 apps      10044        833236 Mar 19  2014 fr-FR_nk0_sg.bin
+-rwxrwxrwx   1 apps      10044        381936 Mar 19  2014 fr-FR_ta.bin
+-rwxrwxrwx   1 apps      10044        628268 Mar 19  2014 it-IT_cm0_sg.bin
+-rwxrwxrwx   1 apps      10044        252044 Mar 19  2014 it-IT_ta.bin
+
+/apps/sys.android.gYABgKAOw1czN6neiAT72SGO.ns/native/system/usr:
+total 56
+drwxrwxrwx   7 apps      10044          4096 Mar 19  2014 .
+drwxrwxrwx  12 apps      10044          4096 Mar 19  2014 ..
+drwxrwxrwx   2 apps      10044          4096 Mar 19  2014 icu
+drwxrwxrwx   2 apps      10044          4096 Mar 19  2014 keychars
+drwxrwxrwx   2 apps      10044          4096 Mar 19  2014 keylayout
+drwxrwxrwx   4 apps      10044          4096 Mar 19  2014 share
+drwxrwxrwx   3 apps      10044          4096 Mar 19  2014 srec
+
+/apps/sys.android.gYABgKAOw1czN6neiAT72SGO.ns/native/system/usr/icu:
+total 11762
+drwxrwxrwx   2 apps      10044          4096 Mar 19  2014 .
+drwxrwxrwx   7 apps      10044          4096 Mar 19  2014 ..
+-rwxrwxrwx   1 apps      10044       6013648 Mar 19  2014 icudt44l.dat
+
+/apps/sys.android.gYABgKAOw1czN6neiAT72SGO.ns/native/system/usr/keychars:
+total 20
+drwxrwxrwx   2 apps      10044          4096 Mar 19  2014 .
+drwxrwxrwx   7 apps      10044          4096 Mar 19  2014 ..
+-rwxrwxrwx   1 apps      10044           896 Mar 19  2014 qwerty.kcm.bin
+-rwxrwxrwx   1 apps      10044           896 Mar 19  2014 qwerty2.kcm.bin
+
+/apps/sys.android.gYABgKAOw1czN6neiAT72SGO.ns/native/system/usr/keylayout:
+total 21
+drwxrwxrwx   2 apps      10044          4096 Mar 19  2014 .
+drwxrwxrwx   7 apps      10044          4096 Mar 19  2014 ..
+-rwxrwxrwx   1 apps      10044           245 Mar 19  2014 AVRCP.kl
+-rwxrwxrwx   1 apps      10044          1834 Mar 19  2014 qwerty.kl
+
+/apps/sys.android.gYABgKAOw1czN6neiAT72SGO.ns/native/system/usr/share:
+total 32
+drwxrwxrwx   4 apps      10044          4096 Mar 19  2014 .
+drwxrwxrwx   7 apps      10044          4096 Mar 19  2014 ..
+drwxrwxrwx   2 apps      10044          4096 Mar 19  2014 bmd
+drwxrwxrwx   2 apps      10044          4096 Mar 19  2014 zoneinfo
+
+/apps/sys.android.gYABgKAOw1czN6neiAT72SGO.ns/native/system/usr/share/bmd:
+total 81
+drwxrwxrwx   2 apps      10044          4096 Mar 19  2014 .
+drwxrwxrwx   4 apps      10044          4096 Mar 19  2014 ..
+-rwxrwxrwx   1 apps      10044         12862 Mar 19  2014 RFFspeed_501.bmd
+-rwxrwxrwx   1 apps      10044         19586 Mar 19  2014 RFFstd_501.bmd
+
+/apps/sys.android.gYABgKAOw1czN6neiAT72SGO.ns/native/system/usr/share/zoneinfo:
+total 1023
+drwxrwxrwx   2 apps      10044          4096 Mar 19  2014 .
+drwxrwxrwx   4 apps      10044          4096 Mar 19  2014 ..
+-rwxrwxrwx   1 apps      10044        484401 Mar 19  2014 zoneinfo.dat
+-rwxrwxrwx   1 apps      10044         29900 Mar 19  2014 zoneinfo.idx
+-rwxrwxrwx   1 apps      10044             6 Mar 19  2014 zoneinfo.version
+
+/apps/sys.android.gYABgKAOw1czN6neiAT72SGO.ns/native/system/usr/srec:
+total 24
+drwxrwxrwx   3 apps      10044          4096 Mar 19  2014 .
+drwxrwxrwx   7 apps      10044          4096 Mar 19  2014 ..
+drwxrwxrwx   3 apps      10044          4096 Mar 19  2014 config
+
+/apps/sys.android.gYABgKAOw1czN6neiAT72SGO.ns/native/system/usr/srec/config:
+total 24
+drwxrwxrwx   3 apps      10044          4096 Mar 19  2014 .
+drwxrwxrwx   3 apps      10044          4096 Mar 19  2014 ..
+drwxrwxrwx   6 apps      10044          4096 Mar 19  2014 en.us
+
+/apps/sys.android.gYABgKAOw1czN6neiAT72SGO.ns/native/system/usr/srec/config/en.us:
+total 78
+drwxrwxrwx   6 apps      10044          4096 Mar 19  2014 .
+drwxrwxrwx   3 apps      10044          4096 Mar 19  2014 ..
+-rwxrwxrwx   1 apps      10044          4623 Mar 19  2014 baseline.par
+-rwxrwxrwx   1 apps      10044          4896 Mar 19  2014 baseline11k.par
+-rwxrwxrwx   1 apps      10044          4895 Mar 19  2014 baseline8k.par
+drwxrwxrwx   2 apps      10044          4096 Mar 19  2014 dictionary
+drwxrwxrwx   2 apps      10044          4096 Mar 19  2014 g2p
+drwxrwxrwx   2 apps      10044          4096 Mar 19  2014 grammars
+drwxrwxrwx   2 apps      10044          4096 Mar 19  2014 models
+
+/apps/sys.android.gYABgKAOw1czN6neiAT72SGO.ns/native/system/usr/srec/config/en.us/dictionary:
+total 1245
+drwxrwxrwx   2 apps      10044          4096 Mar 19  2014 .
+drwxrwxrwx   6 apps      10044          4096 Mar 19  2014 ..
+-rwxrwxrwx   1 apps      10044           254 Mar 19  2014 basic.ok
+-rwxrwxrwx   1 apps      10044        628151 Mar 19  2014 cmu6plus.ok.zip
+-rwxrwxrwx   1 apps      10044           419 Mar 19  2014 enroll.ok
+
+/apps/sys.android.gYABgKAOw1czN6neiAT72SGO.ns/native/system/usr/srec/config/en.us/g2p:
+total 61
+drwxrwxrwx   2 apps      10044          4096 Mar 19  2014 .
+drwxrwxrwx   6 apps      10044          4096 Mar 19  2014 ..
+-rwxrwxrwx   1 apps      10044         22693 Mar 19  2014 en-US-ttp.data
+
+/apps/sys.android.gYABgKAOw1czN6neiAT72SGO.ns/native/system/usr/srec/config/en.us/grammars:
+total 130
+drwxrwxrwx   2 apps      10044          4096 Mar 19  2014 .
+drwxrwxrwx   6 apps      10044          4096 Mar 19  2014 ..
+-rwxrwxrwx   1 apps      10044         55581 Mar 19  2014 VoiceDialer.g2g
+-rwxrwxrwx   1 apps      10044           622 Mar 19  2014 boolean.g2g
+-rwxrwxrwx   1 apps      10044          1395 Mar 19  2014 phone_type_choice.g2g
+
+/apps/sys.android.gYABgKAOw1czN6neiAT72SGO.ns/native/system/usr/srec/config/en.us/models:
+total 2368
+drwxrwxrwx   2 apps      10044          4096 Mar 19  2014 .
+drwxrwxrwx   6 apps      10044          4096 Mar 19  2014 ..
+-rwxrwxrwx   1 apps      10044         42996 Mar 19  2014 generic.swiarb
+-rwxrwxrwx   1 apps      10044         10954 Mar 19  2014 generic11.lda
+-rwxrwxrwx   1 apps      10044        286565 Mar 19  2014 generic11_f.swimdl
+-rwxrwxrwx   1 apps      10044        287087 Mar 19  2014 generic11_m.swimdl
+-rwxrwxrwx   1 apps      10044         10954 Mar 19  2014 generic8.lda
+-rwxrwxrwx   1 apps      10044        280321 Mar 19  2014 generic8_f.swimdl
+-rwxrwxrwx   1 apps      10044        283917 Mar 19  2014 generic8_m.swimdl
+
+/apps/sys.android.gYABgKAOw1czN6neiAT72SGO.ns/native/system/xbin:
+total 233
+drwxrwxrwx   2 apps      10044          4096 Mar 19  2014 .
+drwxrwxrwx  12 apps      10044          4096 Mar 19  2014 ..
+-rwxrwxrwx   1 apps      10044        110989 Mar 19  2014 dexdump
+
+/apps/sys.android.shell.gYABgCWpLq.7ipa6NFYT0JaLpt8:
+total 32
+drwxrwxrwx   4 apps      10045          4096 Mar 19  2014 .
+drwxr-xr-x  57 apps      nto            4096 Oct 03 01:34 ..
+drwxrwxrwx   2 apps      10045          4096 Mar 19  2014 META-INF
+drwxrwxrwx   3 apps      10045          4096 Mar 19  2014 native
+
+/apps/sys.android.shell.gYABgCWpLq.7ipa6NFYT0JaLpt8/META-INF:
+total 34
+drwxrwxrwx   2 apps      10045          4096 Mar 19  2014 .
+drwxrwxrwx   4 apps      10045          4096 Mar 19  2014 ..
+-rwxrwxrwx   1 apps      10045           675 Mar 19  2014 AUTHOR.EC
+-rwxrwxrwx   1 apps      10045          1738 Mar 19  2014 AUTHOR.SF
+-rwxrwxrwx   1 apps      10045          2933 Mar 19  2014 MANIFEST.MF
+-rwxrwxrwx   1 apps      10045           675 Mar 19  2014 RDK.EC
+-rwxrwxrwx   1 apps      10045          1738 Mar 19  2014 RDK.SF
+
+/apps/sys.android.shell.gYABgCWpLq.7ipa6NFYT0JaLpt8/native:
+total 124
+drwxrwxrwx   3 apps      10045          4096 Mar 19  2014 .
+drwxrwxrwx   4 apps      10045          4096 Mar 19  2014 ..
+-rwxrwxrwx   1 apps      10045          5419 Mar 19  2014 blackberry-tablet-default-icon.png
+-rwxrwxrwx   1 apps      10045          1095 Mar 19  2014 blackberry-tablet.xml
+drwxrwxrwx   2 apps      10045          4096 Mar 19  2014 images
+-rwxrwxrwx   1 apps      10045           544 Mar 19  2014 install.sh
+-rwxrwxrwx   1 apps      10045         39952 Mar 19  2014 navigatorshell
+-rwxrwxrwx   1 apps      10045           264 Mar 19  2014 restart.sh
+-rwxrwxrwx   1 apps      10045           223 Mar 19  2014 shutdown.sh
+-rwxrwxrwx   1 apps      10045           539 Mar 19  2014 uninstall.sh
+-rwxrwxrwx   1 apps      10045            36 Mar 19  2014 version.txt
+
+/apps/sys.android.shell.gYABgCWpLq.7ipa6NFYT0JaLpt8/native/images:
+total 71
+drwxrwxrwx   2 apps      10045          4096 Mar 19  2014 .
+drwxrwxrwx   3 apps      10045          4096 Mar 19  2014 ..
+-rwxrwxrwx   1 apps      10045          3751 Mar 19  2014 blackberry-logo-mask.png
+-rwxrwxrwx   1 apps      10045         23913 Mar 19  2014 blackberry-logo-shine.png

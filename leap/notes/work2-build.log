@@ -1,0 +1,164 @@
+=== Working directory: work2 ===
+=== Input autoloader:  ../Z30_10.3.3.3216_STA100.exe ===
+=== Output OS:         work2/autoloaders/Z30_10.3.3.3216_STA100-root_v3.exe ===
+=== Output Radio:      work2/autoloaders/Z30_10.3.3.3216_STA100_radio.exe ===
+=== Compact UFS:       false ===
+[1/7] Splitting autoloader...
+Extracting 2 files from Z30_10.3.3.3216_STA100.exe...
+Extracted: Z30_10.3.3.3216_STA100.0.signed (3,010,003,896 bytes)
+Extracted: Z30_10.3.3.3216_STA100.1.signed (54,657,856 bytes)
+Extraction completed successfully.
+[0m[2/7] Unpacking largest signed file (OS): work2/Z30_10.3.3.3216_STA100.0.signed
+[36mExtracting files...
+[0mProcessing work2/Z30_10.3.3.3216_STA100.0.0.ifs
+[                                        ]   1%[=                                       ]   2%[=                                       ]   3%[==                                      ]   4%[==                                      ]   5%[==                                      ]   6%[===                                     ]   7%[===                                     ]   8%[====                                    ]   9%[====                                    ]  10%[====                                    ]  11%[=====                                   ]  12%[=====                                   ]  13%[======                                  ]  14%[======                                  ]  15%[======                                  ]  16%[=======                                 ]  17%[=======                                 ]  18%[========                                ]  19%[========                                ]  20%[========                                ]  21%[=========                               ]  22%[=========                               ]  23%[==========                              ]  24%[==========                              ]  25%[==========                              ]  26%[===========                             ]  27%[===========                             ]  28%[============                            ]  29%[============                            ]  30%[============                            ]  31%[=============                           ]  32%[=============                           ]  33%[==============                          ]  34%[==============                          ]  35%[==============                          ]  36%[===============                         ]  37%[===============                         ]  38%[================                        ]  39%[================                        ]  40%[================                        ]  41%[=================                       ]  42%[=================                       ]  43%[==================                      ]  44%[==================                      ]  45%[==================                      ]  46%[===================                     ]  47%[===================                     ]  48%[====================                    ]  49%[====================                    ]  50%[====================                    ]  51%[=====================                   ]  52%[=====================                   ]  53%[======================                  ]  54%[======================                  ]  55%[======================                  ]  56%[=======================                 ]  57%[=======================                 ]  58%[========================                ]  59%[========================                ]  60%[========================                ]  61%[=========================               ]  62%[=========================               ]  63%[==========================              ]  64%[==========================              ]  65%[==========================              ]  66%[===========================             ]  67%[===========================             ]  68%[============================            ]  69%[============================            ]  70%[============================            ]  71%[=============================           ]  72%[=============================           ]  73%[==============================          ]  74%[==============================          ]  75%[==============================          ]  76%[===============================         ]  77%[===============================         ]  78%[================================        ]  79%[================================        ]  80%[================================        ]  81%[=================================       ]  82%[=================================       ]  83%[==================================      ]  84%[==================================      ]  85%[==================================      ]  86%[===================================     ]  87%[===================================     ]  88%[====================================    ]  89%[====================================    ]  90%[====================================    ]  91%[=====================================   ]  92%[=====================================   ]  93%[======================================  ]  94%[======================================  ]  95%[======================================  ]  96%[======================================= ]  97%[======================================= ]  98%[========================================]  99%[========================================] 100%
+
+Processing work2/Z30_10.3.3.3216_STA100.0.1.rcfs
+[                                        ]   0%[                                        ]   1%[=                                       ]   2%[=                                       ]   3%[==                                      ]   4%[==                                      ]   5%[==                                      ]   6%[===                                     ]   7%[===                                     ]   8%[====                                    ]   9%[====                                    ]  10%[====                                    ]  11%[=====                                   ]  12%[=====                                   ]  13%[======                                  ]  14%[======                                  ]  15%[======                                  ]  16%[=======                                 ]  17%[=======                                 ]  18%[========                                ]  19%[========                                ]  20%[========                                ]  21%[=========                               ]  22%[=========                               ]  23%[==========                              ]  24%[==========                              ]  25%[==========                              ]  26%[===========                             ]  27%[===========                             ]  28%[============                            ]  29%[============                            ]  30%[============                            ]  31%[=============                           ]  32%[=============                           ]  33%[==============                          ]  34%[==============                          ]  35%[==============                          ]  36%[===============                         ]  37%[===============                         ]  38%[================                        ]  39%[================                        ]  40%[================                        ]  41%[=================                       ]  42%[=================                       ]  43%[==================                      ]  44%[==================                      ]  45%[==================                      ]  46%[===================                     ]  47%[===================                     ]  48%[====================                    ]  49%[====================                    ]  50%[====================                    ]  51%[=====================                   ]  52%[=====================                   ]  53%[======================                  ]  54%[======================                  ]  55%[======================                  ]  56%[=======================                 ]  57%[=======================                 ]  58%[========================                ]  59%[========================                ]  60%[========================                ]  61%[=========================               ]  62%[=========================               ]  63%[==========================              ]  64%[==========================              ]  65%[==========================              ]  66%[===========================             ]  67%[===========================             ]  68%[============================            ]  69%[============================            ]  70%[============================            ]  71%[=============================           ]  72%[=============================           ]  73%[==============================          ]  74%[==============================          ]  75%[==============================          ]  76%[===============================         ]  77%[===============================         ]  78%[================================        ]  79%[================================        ]  80%[================================        ]  81%[=================================       ]  82%[=================================       ]  83%[==================================      ]  84%[==================================      ]  85%[==================================      ]  86%[===================================     ]  87%[===================================     ]  88%[====================================    ]  89%[====================================    ]  90%[====================================    ]  91%[=====================================   ]  92%[=====================================   ]  93%[======================================  ]  94%[======================================  ]  95%[======================================  ]  96%[======================================= ]  97%[======================================= ]  98%[========================================]  99%[========================================] 100%
+
+Processing work2/Z30_10.3.3.3216_STA100.0.2.sig2
+[========================================] 100%
+
+Processing work2/Z30_10.3.3.3216_STA100.0.3.mbr
+[========================================] 100%
+
+Processing work2/Z30_10.3.3.3216_STA100.0.4.ufs
+[                                        ]   0%[                                        ]   1%[=                                       ]   2%[=                                       ]   3%[==                                      ]   4%[==                                      ]   5%[==                                      ]   6%[===                                     ]   7%[===                                     ]   8%[====                                    ]   9%[====                                    ]  10%[====                                    ]  11%[=====                                   ]  12%[=====                                   ]  13%[======                                  ]  14%[======                                  ]  15%[======                                  ]  16%[=======                                 ]  17%[=======                                 ]  18%[========                                ]  19%[========                                ]  20%[========                                ]  21%[=========                               ]  22%[=========                               ]  23%[==========                              ]  24%[==========                              ]  25%[==========                              ]  26%[===========                             ]  27%[===========                             ]  28%[============                            ]  29%[============                            ]  30%[============                            ]  31%[=============                           ]  32%[=============                           ]  33%[==============                          ]  34%[==============                          ]  35%[==============                          ]  36%[===============                         ]  37%[===============                         ]  38%[================                        ]  39%[================                        ]  40%[================                        ]  41%[=================                       ]  42%[=================                       ]  43%[==================                      ]  44%[==================                      ]  45%[==================                      ]  46%[===================                     ]  47%[===================                     ]  48%[====================                    ]  49%[====================                    ]  50%[====================                    ]  51%[=====================                   ]  52%[=====================                   ]  53%[======================                  ]  54%[======================                  ]  55%[======================                  ]  56%[=======================                 ]  57%[=======================                 ]  58%[========================                ]  59%[========================                ]  60%[========================                ]  61%[=========================               ]  62%[=========================               ]  63%[==========================              ]  64%[==========================              ]  65%[==========================              ]  66%[===========================             ]  67%[===========================             ]  68%[============================            ]  69%[============================            ]  70%[============================            ]  71%[=============================           ]  72%[=============================           ]  73%[==============================          ]  74%[==============================          ]  75%[==============================          ]  76%[===============================         ]  77%[===============================         ]  78%[================================        ]  79%[================================        ]  80%[================================        ]  81%[=================================       ]  82%[=================================       ]  83%[==================================      ]  84%[==================================      ]  85%[==================================      ]  86%[===================================     ]  87%[===================================     ]  88%[====================================    ]  89%[====================================    ]  90%[====================================    ]  91%[=====================================   ]  92%[=====================================   ]  93%[======================================  ]  94%[======================================  ]  95%[======================================  ]  96%[======================================= ]  97%[======================================= ]  98%[========================================]  99%[========================================] 100%
+[0m[3/7] Applying patch script to UFS: work2/Z30_10.3.3.3216_STA100.0.4.ufs
+[INFO] Starting application removal process for 6 target(s)...
+[INFO] Removed "com.twitter.gYABgMxtkHoH6S4G1_Ff5yu0E.I" from "/apps"
+[INFO] Removed "com.evernote.gYABgI0JwqeZrkDqNAqXPZrYxT8" from "/apps"
+[INFO] Removed "com.linkedin.gYABgPilB6lwL6lsxmVwDOfmbO8" from "/apps"
+[INFO] Removed "com.tcs.maps.gYABgCxm2rf5o5xfFP8dPCQnlJY" from "/apps"
+[INFO] Removed "com.rim.bb.app.facebook.gYABgDLo0nc9AhDgv2JAPixdyvQ" from "/apps"
+[INFO] Removed "com.rim.bb.app.retaildemoshim.gYABgDVujMLj4_Ske3wIsEI_1Sc" from "/apps"
+[INFO] Application removal process finished successfully.
+[INFO] Starting application removal process for 5 target(s)...
+[INFO] Removed "sys.appworld.gYABgNSvaLtte_snIx7wjRsOcyM" from "/apps"
+[INFO] Removed "sys.weather.gYABgKOf0EhVEWtCxrbBQ00sPSg" from "/apps"
+[INFO] Removed "sys.retaildemo.gYABgBxWmx.86UeVA7bIl_mWB_s" from "/apps"
+[INFO] Removed "sys.socialconnect.linkedin.gYABgCUcHQzQnN9ZnpyVppfXHEQ" from "/apps"
+[INFO] Removed "sys.socialconnect.twitter.gYABgB2cPvkIcyPxzQPSK9Jx89U" from "/apps"
+[INFO] Application removal process finished successfully.
+[INFO] Starting application removal process for 6 target(s)...
+[INFO] Removed "sys.socialconnect.youtube.gYABgGKpx0c4el2ZvSpFKF2J6bI" from "/apps"
+[INFO] Removed "sys.socialconnect.facebook.gYABgPNVFtmlTnTGF_U0dFfTvgQ" from "/apps"
+[INFO] Removed "sys.cfs.box.gYABgJKe3gZus2hhkRPM4zcarBU" from "/apps"
+[INFO] Removed "sys.cfs.dropbox.gYABgKi0Cs_hMocaoCB7UgqkaIU" from "/apps"
+[INFO] Removed "sys.uri.youtube.gYABgPb.Z9vEwRNMeB_hwLSqC6o" from "/apps"
+[INFO] Removed "sys.setupbuffet.gYABgCbSxd9WrFvFV8sJDoI7tlE" from "/apps"
+[INFO] Application removal process finished successfully.
+[INFO] Starting application removal process for 3 target(s)...
+[INFO] Removed "sys.help.gYABgPG.Su8AzxaqqONbaanIprc" from "/apps"
+[INFO] Removed "sys.howto.gYABgOhb4Wbcsk40pQY_NjNaj5g" from "/apps"
+[INFO] Removed "sys.firstlaunch.gYABgE1L_lY.sjW85E1SCBQsrco" from "/apps"
+[INFO] Application removal process finished successfully.
+[INFO] Successfully created directory "/var/rootdata"
+[INFO] Successfully created directory "/var/android/getroot/META-INF"
+[INFO] Successfully created directory "/var/android/getroot/assets/data"
+[INFO] Successfully created directory "/var/android/xxx"
+[INFO] Successfully created directory "/var/pps/services/firstlaunch"
+[INFO] Successfully created directory "/var/pps/system/development"
+[INFO] Successfully created directory "/var/pps/system/installer/upd/current"
+[INFO] Successfully touched file "/var/rootdata/use.sshd"
+[INFO] Pushed file "/home/steve/Projects/blackberry/v3root/patchdata/var/etc/ssh/authorized_keys2" -> "/var/etc/ssh/authorized_keys2"
+chmod: [INFO] Mode set to 0644 for "/var/etc/ssh/authorized_keys2"
+chmod: [INFO] Operation completed successfully
+chown: [INFO] Owner/group set to 0:0 for "/var/etc/ssh/authorized_keys2"
+chown: [INFO] Operation completed successfully
+[INFO] Pushed file "/home/steve/Projects/blackberry/v3root/patchdata/var/etc/ssh/ssh_host_rsa_key" -> "/var/etc/ssh/ssh_host_rsa_key"
+[INFO] Pushed file "/home/steve/Projects/blackberry/v3root/patchdata/var/etc/ssh/ssh_host_rsa_key.pub" -> "/var/etc/ssh/ssh_host_rsa_key.pub"
+chmod: [INFO] Mode set to 0600 for "/var/etc/ssh/ssh_host_rsa_key"
+chmod: [INFO] Operation completed successfully
+chown: [INFO] Owner/group set to 0:0 for "/var/etc/ssh/ssh_host_rsa_key"
+chown: [INFO] Operation completed successfully
+chmod: [INFO] Mode set to 0644 for "/var/etc/ssh/ssh_host_rsa_key.pub"
+chmod: [INFO] Operation completed successfully
+chown: [INFO] Owner/group set to 0:0 for "/var/etc/ssh/ssh_host_rsa_key.pub"
+chown: [INFO] Operation completed successfully
+[INFO] Pushed file "/home/steve/Projects/blackberry/v3root/patchdata/apps/sys.android.gYABgKAOw1czN6neiAT72SGO.ns/native/system/bin/r" -> "/apps/sys.android.gYABgKAOw1czN6neiAT72SGO.ns/native/system/bin/r"
+[INFO] Pushed file "/home/steve/Projects/blackberry/v3root/patchdata/apps/sys.android.gYABgKAOw1czN6neiAT72SGO.ns/native/system/xbin/btool" -> "/apps/sys.android.gYABgKAOw1czN6neiAT72SGO.ns/native/system/xbin/btool"
+[INFO] Pushed file "/home/steve/Projects/blackberry/v3root/patchdata/var/rootdata/install.sh" -> "/var/rootdata/install.sh"
+[INFO] Pushed file "/home/steve/Projects/blackberry/v3root/patchdata/var/rootdata/launcher_patcher" -> "/var/rootdata/launcher_patcher"
+[INFO] Pushed file "/home/steve/Projects/blackberry/v3root/patchdata/var/rootdata/Term49.bar" -> "/var/rootdata/Term49.bar"
+[INFO] Pushed file "/home/steve/Projects/blackberry/v3root/patchdata/var/rootdata/getroot.bar" -> "/var/rootdata/getroot.bar"
+[INFO] Pushed file "/home/steve/Projects/blackberry/v3root/patchdata/var/android/getroot/assets/links" -> "/var/android/getroot/assets/links"
+[INFO] Pushed file "/home/steve/Projects/blackberry/v3root/patchdata/var/android/getroot/assets/perms" -> "/var/android/getroot/assets/perms"
+[INFO] Pushed file "/home/steve/Projects/blackberry/v3root/patchdata/var/android/getroot/assets/data/fs1.rcfs" -> "/var/android/getroot/assets/data/fs1.rcfs"
+[INFO] Pushed file "/home/steve/Projects/blackberry/v3root/patchdata/var/android/getroot/assets/data/fs2.rcfs" -> "/var/android/getroot/assets/data/fs2.rcfs"
+[INFO] Pushed file "/home/steve/Projects/blackberry/v3root/patchdata/var/android/getroot/META-INF/MANIFEST.MF" -> "/var/android/getroot/META-INF/MANIFEST.MF"
+[INFO] Pushed file "/home/steve/Projects/blackberry/v3root/patchdata/var/etc/autostart.conf" -> "/var/etc/autostart.conf"
+[INFO] Pushed file "/home/steve/Projects/blackberry/v3root/patchdata/var/etc/ssh/sshd_config" -> "/var/etc/ssh/sshd_config"
+[INFO] Pushed file "/home/steve/Projects/blackberry/v3root/patchdata/var/etc/system/config/sud.cfg" -> "/var/etc/system/config/sud.cfg"
+[INFO] Pushed file "/home/steve/Projects/blackberry/v3root/patchdata/var/pps/services/firstlaunch/status_public" -> "/var/pps/services/firstlaunch/status_public"
+[INFO] Pushed file "/home/steve/Projects/blackberry/v3root/patchdata/var/pps/system/installer/upd/current/getroot" -> "/var/pps/system/installer/upd/current/getroot"
+[INFO] Replacing "autorun::1" with "autorun::0" in file "/var/pps/system/navigator/config"...
+[INFO] Successfully updated file "/var/pps/system/navigator/config"
+[INFO] Added "tutorials_app_launch_homeswipe_done:n:1" to "/var/pps/system/navigator/config"
+[INFO] Added "tutorials_done_binary_code:n:63" to "/var/pps/system/navigator/config"
+[INFO] Added "tutorials_failed_homeswipe_done:n:1" to "/var/pps/system/navigator/config"
+[INFO] Added "tutorials_setup_assistance_done:n:1" to "/var/pps/system/navigator/config"
+[INFO] Pushed file "/home/steve/Projects/blackberry/v3root/patchdata/var/pps/system/development/sanity" -> "/var/pps/system/development/sanity"
+chmod: [INFO] Mode set to 0777 for "/apps"
+chmod: [INFO] Recursively applied mode 0777 to "/apps"
+chmod: [INFO] Mode set to 0777 for "/var/android"
+chmod: [INFO] Recursively applied mode 0777 to "/var/android"
+chmod: [INFO] Mode set to 0755 for "/var/android/xxx"
+chmod: [INFO] Recursively applied mode 0755 to "/var/android/xxx"
+chmod: [INFO] Mode set to 0777 for "/var/pps/system/development"
+chmod: [INFO] Recursively applied mode 0777 to "/var/pps/system/development"
+chmod: [INFO] Mode set to 0777 for "/var/pps/services/firstlaunch"
+chmod: [INFO] Recursively applied mode 0777 to "/var/pps/services/firstlaunch"
+chmod: [INFO] Mode set to 0777 for "/var/pps/system/installer/upd"
+chmod: [INFO] Recursively applied mode 0777 to "/var/pps/system/installer/upd"
+chown: [INFO] Recursively applied owner/group 0:0 to "/var/android/xxx"
+chown: [INFO] Recursively applied owner/group 0:0 to "/var/android/getroot"
+chmod: [INFO] Mode set to 0777 for "/var/rootdata"
+chmod: [INFO] Recursively applied mode 0777 to "/var/rootdata"
+chown: [INFO] Recursively applied owner/group 0:0 to "/var/rootdata"
+chown: [INFO] Recursively applied owner/group 0:0 to "/var/pps/system/development"
+chown: [INFO] Recursively applied owner/group 0:0 to "/var/pps/services/firstlaunch"
+chown: [INFO] Recursively applied owner/group 0:0 to "/var/pps/system/installer/upd"
+chmod: [INFO] Mode set to 0666 for "/var/rootdata/Term49.bar"
+chmod: [INFO] Operation completed successfully
+chmod: [INFO] Mode set to 0666 for "/var/rootdata/getroot.bar"
+chmod: [INFO] Operation completed successfully
+chmod: [INFO] Mode set to 0777 for "/var/rootdata/launcher_patcher"
+chmod: [INFO] Operation completed successfully
+chmod: [INFO] Mode set to 0777 for "/apps/sys.android.gYABgKAOw1czN6neiAT72SGO.ns/native/system/bin/r"
+chmod: [INFO] Operation completed successfully
+chown: [INFO] Owner/group set to 0:0 for "/apps/sys.android.gYABgKAOw1czN6neiAT72SGO.ns/native/system/bin/r"
+chown: [INFO] Operation completed successfully
+chmod: [INFO] Mode set to 0777 for "/apps/sys.android.gYABgKAOw1czN6neiAT72SGO.ns/native/system/xbin/btool"
+chmod: [INFO] Operation completed successfully
+chown: [INFO] Owner/group set to 0:0 for "/apps/sys.android.gYABgKAOw1czN6neiAT72SGO.ns/native/system/xbin/btool"
+chown: [INFO] Operation completed successfully
+chmod: [INFO] Mode set to 0644 for "/var/android/getroot/assets/data/fs1.rcfs"
+chmod: [INFO] Operation completed successfully
+chmod: [INFO] Mode set to 0644 for "/var/android/getroot/assets/data/fs2.rcfs"
+chmod: [INFO] Operation completed successfully
+chmod: [INFO] Mode set to 0666 for "/var/etc/autostart.conf"
+chmod: [INFO] Operation completed successfully
+chown: [INFO] Owner/group set to 0:0 for "/var/etc/autostart.conf"
+chown: [INFO] Operation completed successfully
+chmod: [INFO] Mode set to 0644 for "/var/etc/ssh/sshd_config"
+chmod: [INFO] Operation completed successfully
+chown: [INFO] Owner/group set to 0:0 for "/var/etc/ssh/sshd_config"
+chown: [INFO] Operation completed successfully
+chmod: [INFO] Mode set to 0777 for "/var/etc/system/config/sud.cfg"
+chmod: [INFO] Operation completed successfully
+chown: [INFO] Owner/group set to 0:0 for "/var/etc/system/config/sud.cfg"
+chown: [INFO] Operation completed successfully
+chmod: [INFO] Mode set to 0666 for "/var/pps/system/development/sanity"
+chmod: [INFO] Operation completed successfully
+[0m[4/7] Skipping UFS compacting (use -c to enable).
+[5/7] Packing UFS back into unsigned image: work2/Z30_10.3.3.3216_STA100.0.unsigned
+[36mPacking files into container...
+[0mProcessing /home/steve/Projects/blackberry/v3root/work2/Z30_10.3.3.3216_STA100.0.4.ufs
+[                                        ]   0%[                                        ]   1%[=                                       ]   2%[=                                       ]   3%[==                                      ]   4%[==                                      ]   5%[==                                      ]   6%[===                                     ]   7%[===                                     ]   8%[====                                    ]   9%[====                                    ]  10%[====                                    ]  11%[=====                                   ]  12%[=====                                   ]  13%[======                                  ]  14%[======                                  ]  15%[======                                  ]  16%[=======                                 ]  17%[=======                                 ]  18%[========                                ]  19%[========                                ]  20%[========                                ]  21%[=========                               ]  22%[=========                               ]  23%[==========                              ]  24%[==========                              ]  25%[==========                              ]  26%[===========                             ]  27%[===========                             ]  28%[============                            ]  29%[============                            ]  30%[============                            ]  31%[=============                           ]  32%[=============                           ]  33%[==============                          ]  34%[==============                          ]  35%[==============                          ]  36%[===============                         ]  37%[===============                         ]  38%[================                        ]  39%[================                        ]  40%[================                        ]  41%[=================                       ]  42%[=================                       ]  43%[==================                      ]  44%[==================                      ]  45%[==================                      ]  46%[===================                     ]  47%[===================                     ]  48%[====================                    ]  49%[====================                    ]  50%[====================                    ]  51%[=====================                   ]  52%[=====================                   ]  53%[======================                  ]  54%[======================                  ]  55%[======================                  ]  56%[=======================                 ]  57%[=======================                 ]  58%[========================                ]  59%[========================                ]  60%[========================                ]  61%[=========================               ]  62%[=========================               ]  63%[==========================              ]  64%[==========================              ]  65%[==========================              ]  66%[===========================             ]  67%[===========================             ]  68%[============================            ]  69%[============================            ]  70%[============================            ]  71%[=============================           ]  72%[=============================           ]  73%[==============================          ]  74%[==============================          ]  75%[==============================          ]  76%[===============================         ]  77%[===============================         ]  78%[================================        ]  79%[================================        ]  80%[================================        ]  81%[=================================       ]  82%[=================================       ]  83%[==================================      ]  84%[==================================      ]  85%[==================================      ]  86%[===================================     ]  87%[===================================     ]  88%[====================================    ]  89%[====================================    ]  90%[====================================    ]  91%[=====================================   ]  92%[=====================================   ]  93%[======================================  ]  94%[======================================  ]  95%[======================================  ]  96%[======================================= ]  97%[======================================= ]  98%[========================================]  99%[========================================] 100%[0m[6/7] Creating final OS autoloader: work2/autoloaders/Z30_10.3.3.3216_STA100-root_v3.exe
+[36mPacking files into autoloader...
+[0m[0m[7/7] Creating Radio autoloader: work2/autoloaders/Z30_10.3.3.3216_STA100_radio.exe
+[36mPacking files into autoloader...
+[0m[0m=== Done! ===
+OS Autoloader:    work2/autoloaders/Z30_10.3.3.3216_STA100-root_v3.exe
+Radio Autoloader: work2/autoloaders/Z30_10.3.3.3216_STA100_radio.exe

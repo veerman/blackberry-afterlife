@@ -1,0 +1,409 @@
+
+/accounts/devuser:
+total 32918
+drwxr-x---   7 devuser   devuser        4096 Oct 03 01:17 .
+drwxr-xr-x   4 root      nto            4096 Jan 15  2013 ..
+-rwxr-x---   1 devuser   devuser         430 Jan 15  2013 .profile
+drwxr-xr-x   2 root      nto            4096 Oct 03 01:01 .ssh
+drwxrwxrwx   2 root      nto            4096 Aug 29 14:51 bin
+-rwxrwxrwx   1 root      nto        16793600 Aug 29 14:51 fs1.qnx6
+drwxrwxrwx   3 root      nto            4096 Aug 29 14:51 lib
+-rwxrwxrwx   1 root      nto           20252 Aug 29 14:51 nvram
+drwxrwxrwx   4 root      nto            4096 Aug 29 14:51 opt
+-rwxrwxrwx   1 root      nto            1135 Aug 29 14:51 restart-launcher.sh
+-rwxrwxrwx   1 root      nto            1550 Oct 03 01:17 root.sh
+-rwxrwxrwx   1 root      nto            1605 Aug 29 14:51 root.sh.psyden-orig
+-rwxrwxrwx   1 root      nto              56 Aug 29 14:51 sloginfo.sh
+-rwxrwxrwx   1 root      nto             544 Oct 03 01:02 sshd-watchdog.sh
+-rwxrwxrwx   1 root      nto             543 Aug 29 14:51 sshd-watchdog.sh.psyden-orig
+-rwxrwxrwx   1 root      nto             173 Oct 03 01:02 sshd_config
+-rwxrwxrwx   1 root      nto             162 Aug 29 14:51 sshd_config.psyden-orig
+drwxrwxrwx   5 root      nto            4096 Aug 29 14:51 symlink
+-rwxrwxrwx   1 root      nto            1129 Aug 29 14:51 symlink.sh
+
+/accounts/devuser/.ssh:
+total 23
+drwxr-xr-x   2 root      nto            4096 Oct 03 01:01 .
+drwxr-x---   7 devuser   devuser        4096 Oct 03 01:17 ..
+-rw-------   1 root      nto             751 Oct 03 01:01 authorized_keys2
+-rwxr-xr-x   1 root      nto             750 Aug 29 14:51 authorized_keys2.psyden-orig
+-rwxr-xr-x   1 root      nto             834 Aug 29 14:51 known_hosts
+-rwxr-xr-x   1 root      nto              94 Aug 29 14:51 known_hosts.old
+
+/accounts/devuser/bin:
+total 27449
+drwxrwxrwx   2 root      nto            4096 Aug 29 14:51 .
+drwxr-x---   7 devuser   devuser        4096 Oct 03 01:17 ..
+-rwxrwxrwx   1 root      nto          130740 Aug 29 14:51 curl
+-rwxrwxrwx   1 root      nto            8414 Aug 29 14:51 curl-config
+-rwxrwxrwx   1 root      nto          203204 Aug 29 14:51 dbclient
+-rwxrwxrwx   1 root      nto           25992 Aug 29 14:51 dbscp
+-rwxrwxrwx   1 root      nto          277584 Aug 29 14:51 dropbear
+-rwxrwxrwx   1 root      nto          129692 Aug 29 14:51 dropbearkey
+-rwxrwxrwx   1 root      nto           54938 Aug 29 14:51 event_rpcgen.py
+-rwxrwxrwx   1 root      nto            9545 Aug 29 14:51 ldd
+-rwxrwxrwx   1 root      nto          350652 Aug 29 14:51 nano
+-rwxrwxrwx   1 root      nto            8979 Aug 29 14:51 ncursesw6-config
+-rwxrwxrwx   1 root      nto           39164 Aug 29 14:51 netcat
+-rwxrwxrwx   1 root      nto           15260 Aug 29 14:51 qnx_top
+-rwxrwxrwx   1 root      nto         1993084 Aug 29 14:51 rsync
+-rwxrwxrwx   1 root      nto            5136 Aug 29 14:51 rsync-ssl
+-rwxrwxrwx   1 root      nto         1721856 Aug 29 14:51 scp
+-rwxrwxrwx   1 root      nto         1722064 Aug 29 14:51 sftp
+-rwxrwxrwx   1 root      nto         2298864 Aug 29 14:51 ssh
+-rwxrwxrwx   1 root      nto         1883388 Aug 29 14:51 ssh-agent
+-rwxrwxrwx   1 root      nto         1995428 Aug 29 14:51 ssh-keygen
+-rwxrwxrwx   1 root      nto          484168 Aug 29 14:51 tar
+-rwxrwxrwx   1 root      nto          682544 Aug 29 14:51 tmux
+
+/accounts/devuser/lib:
+total 31417
+drwxrwxrwx   3 root      nto            4096 Aug 29 14:51 .
+drwxr-x---   7 devuser   devuser        4096 Oct 03 01:17 ..
+-rwxrwxrwx   1 root      nto         8865884 Aug 29 14:51 libcurl.a
+-rwxrwxrwx   1 root      nto            1332 Aug 29 14:51 libcurl.la
+-rwxrwxrwx   1 root      nto         2647460 Aug 29 14:51 libcurl.so.12
+-rwxrwxrwx   1 root      nto          401158 Aug 29 14:51 libevent.a
+-rwxrwxrwx   1 root      nto            1264 Aug 29 14:51 libevent.la
+-rwxrwxrwx   1 root      nto          248374 Aug 29 14:51 libevent_core.a
+-rwxrwxrwx   1 root      nto            1279 Aug 29 14:51 libevent_core.la
+-rwxrwxrwx   1 root      nto          152858 Aug 29 14:51 libevent_extra.a
+-rwxrwxrwx   1 root      nto            1282 Aug 29 14:51 libevent_extra.la
+-rwxrwxrwx   1 root      nto            3366 Aug 29 14:51 libevent_pthreads.a
+-rwxrwxrwx   1 root      nto            1291 Aug 29 14:51 libevent_pthreads.la
+-rwxrwxrwx   1 root      nto          102088 Aug 29 14:51 libformw.a
+-rwxrwxrwx   1 root      nto           50856 Aug 29 14:51 libformw.so.6.4
+-rwxrwxrwx   1 root      nto          219904 Aug 29 14:51 libgcc_s.so.1
+-rwxrwxrwx   1 root      nto           51002 Aug 29 14:51 libmenuw.a
+-rwxrwxrwx   1 root      nto           22744 Aug 29 14:51 libmenuw.so.6.4
+-rwxrwxrwx   1 root      nto          566572 Aug 29 14:51 libncursesw.a
+-rwxrwxrwx   1 root      nto          329976 Aug 29 14:51 libncursesw.so
+-rwxrwxrwx   1 root      nto          329976 Aug 29 14:51 libncursesw.so.6.4
+-rwxrwxrwx   1 root      nto           23706 Aug 29 14:51 libpanelw.a
+-rwxrwxrwx   1 root      nto           10968 Aug 29 14:51 libpanelw.so.6.4
+-rwxrwxrwx   1 root      nto            3914 Aug 29 14:51 libqnxcompat.a
+-rwxrwxrwx   1 root      nto         2029904 Aug 29 14:51 libstdc++.so.6
+drwxrwxrwx   2 root      nto            4096 Aug 29 14:51 pkgconfig
+
+/accounts/devuser/lib/pkgconfig:
+total 28
+drwxrwxrwx   2 root      nto            4096 Aug 29 14:51 .
+drwxrwxrwx   3 root      nto            4096 Aug 29 14:51 ..
+-rwxrwxrwx   1 root      nto             825 Aug 29 14:51 formw.pc
+-rwxrwxrwx   1 root      nto             409 Aug 29 14:51 libevent.pc
+-rwxrwxrwx   1 root      nto             373 Aug 29 14:51 libevent_core.pc
+-rwxrwxrwx   1 root      nto             376 Aug 29 14:51 libevent_extra.pc
+-rwxrwxrwx   1 root      nto             446 Aug 29 14:51 libevent_pthreads.pc
+-rwxrwxrwx   1 root      nto             825 Aug 29 14:51 menuw.pc
+-rwxrwxrwx   1 root      nto             837 Aug 29 14:51 ncursesw.pc
+-rwxrwxrwx   1 root      nto             827 Aug 29 14:51 panelw.pc
+
+/accounts/devuser/opt:
+total 32
+drwxrwxrwx   4 root      nto            4096 Aug 29 14:51 .
+drwxr-x---   7 devuser   devuser        4096 Oct 03 01:17 ..
+drwxrwxrwx   4 root      nto            4096 Aug 29 14:51 webkit
+drwxrwxrwx   7 root      nto            4096 Aug 29 14:51 www
+
+/accounts/devuser/opt/webkit:
+total 32
+drwxrwxrwx   4 root      nto            4096 Aug 29 14:51 .
+drwxrwxrwx   4 root      nto            4096 Aug 29 14:51 ..
+drwxrwxrwx   3 root      nto            4096 Aug 29 14:51 config
+drwxrwxrwx   3 root      nto            4096 Aug 29 14:51 resources
+
+/accounts/devuser/opt/webkit/config:
+total 24
+drwxrwxrwx   3 root      nto            4096 Aug 29 14:51 .
+drwxrwxrwx   4 root      nto            4096 Aug 29 14:51 ..
+drwxrwxrwx   2 root      nto            4096 Aug 29 14:51 webkit
+
+/accounts/devuser/opt/webkit/config/webkit:
+total 29
+drwxrwxrwx   2 root      nto            4096 Aug 29 14:51 .
+drwxrwxrwx   3 root      nto            4096 Aug 29 14:51 ..
+-rwxrwxrwx   1 root      nto            6558 Aug 29 14:51 browser_notification.png
+
+/accounts/devuser/opt/webkit/resources:
+total 24
+drwxrwxrwx   3 root      nto            4096 Aug 29 14:51 .
+drwxrwxrwx   4 root      nto            4096 Aug 29 14:51 ..
+drwxrwxrwx   4 root      nto            4096 Aug 29 14:51 inspector
+
+/accounts/devuser/opt/webkit/resources/inspector:
+total 5817
+drwxrwxrwx   4 root      nto            4096 Aug 29 14:51 .
+drwxrwxrwx   3 root      nto            4096 Aug 29 14:51 ..
+-rwxrwxrwx   1 root      nto            2031 Aug 29 14:51 HeapSnapshotWorker.js
+drwxrwxrwx   2 root      nto            4096 Aug 29 14:51 Images
+-rwxrwxrwx   1 root      nto           28579 Aug 29 14:51 JavaScriptFormatter.js
+-rwxrwxrwx   1 root      nto            8438 Aug 29 14:51 ScriptFormatterWorker.js
+-rwxrwxrwx   1 root      nto           32024 Aug 29 14:51 SourceHTMLTokenizer.js
+-rwxrwxrwx   1 root      nto            3427 Aug 29 14:51 SourceTokenizer.js
+drwxrwxrwx   2 root      nto            4096 Aug 29 14:51 UglifyJS
+-rwxrwxrwx   1 root      nto            5280 Aug 29 14:51 auditsPanel.css
+-rwxrwxrwx   1 root      nto            4621 Aug 29 14:51 dataGrid.css
+-rwxrwxrwx   1 root      nto            1286 Aug 29 14:51 dialog.css
+-rwxrwxrwx   1 root      nto           13748 Aug 29 14:51 elementsPanel.css
+-rwxrwxrwx   1 root      nto            6334 Aug 29 14:51 heapProfiler.css
+-rwxrwxrwx   1 root      nto            4119 Aug 29 14:51 helpScreen.css
+-rwxrwxrwx   1 root      nto            3092 Aug 29 14:51 indexedDBViews.css
+-rwxrwxrwx   1 root      nto           61615 Aug 29 14:51 inspector.css
+-rwxrwxrwx   1 root      nto            3948 Aug 29 14:51 inspectorBB.html
+-rwxrwxrwx   1 root      nto            3420 Aug 29 14:51 inspectorCommon.css
+-rwxrwxrwx   1 root      nto         2694000 Aug 29 14:51 javascript.js
+-rwxrwxrwx   1 root      nto           13164 Aug 29 14:51 networkLogView.css
+-rwxrwxrwx   1 root      nto            7487 Aug 29 14:51 networkPanel.css
+-rwxrwxrwx   1 root      nto            5100 Aug 29 14:51 panelEnablerView.css
+-rwxrwxrwx   1 root      nto            1732 Aug 29 14:51 popover.css
+-rwxrwxrwx   1 root      nto            4535 Aug 29 14:51 profilesPanel.css
+-rwxrwxrwx   1 root      nto            3018 Aug 29 14:51 resourceView.css
+-rwxrwxrwx   1 root      nto            8662 Aug 29 14:51 resourcesPanel.css
+-rwxrwxrwx   1 root      nto            8622 Aug 29 14:51 scriptsPanel.css
+-rwxrwxrwx   1 root      nto            2250 Aug 29 14:51 splitView.css
+-rwxrwxrwx   1 root      nto            4147 Aug 29 14:51 tabbedPane.css
+-rwxrwxrwx   1 root      nto            2283 Aug 29 14:51 textPrompt.css
+-rwxrwxrwx   1 root      nto            4536 Aug 29 14:51 textViewer.css
+-rwxrwxrwx   1 root      nto           14174 Aug 29 14:51 timelinePanel.css
+
+/accounts/devuser/opt/webkit/resources/inspector/Images:
+total 645
+drwxrwxrwx   2 root      nto            4096 Aug 29 14:51 .
+drwxrwxrwx   4 root      nto            4096 Aug 29 14:51 ..
+-rwxrwxrwx   1 root      nto            1735 Aug 29 14:51 applicationCache.png
+-rwxrwxrwx   1 root      nto             216 Aug 29 14:51 back.png
+-rwxrwxrwx   1 root      nto             261 Aug 29 14:51 breakpointBorder.png
+-rwxrwxrwx   1 root      nto             414 Aug 29 14:51 breakpointCounterBorder.png
+-rwxrwxrwx   1 root      nto              82 Aug 29 14:51 checker.png
+-rwxrwxrwx   1 root      nto             369 Aug 29 14:51 closeButtons.png
+-rwxrwxrwx   1 root      nto            2189 Aug 29 14:51 cookie.png
+-rwxrwxrwx   1 root      nto            1461 Aug 29 14:51 database.png
+-rwxrwxrwx   1 root      nto             308 Aug 29 14:51 databaseTable.png
+-rwxrwxrwx   1 root      nto             203 Aug 29 14:51 debuggerContinue.png
+-rwxrwxrwx   1 root      nto             120 Aug 29 14:51 debuggerPause.png
+-rwxrwxrwx   1 root      nto             253 Aug 29 14:51 debuggerStepInto.png
+-rwxrwxrwx   1 root      nto             246 Aug 29 14:51 debuggerStepOut.png
+-rwxrwxrwx   1 root      nto             312 Aug 29 14:51 debuggerStepOver.png
+-rwxrwxrwx   1 root      nto             174 Aug 29 14:51 deleteIcon.png
+-rwxrwxrwx   1 root      nto             672 Aug 29 14:51 domain.png
+-rwxrwxrwx   1 root      nto             375 Aug 29 14:51 errorIcon.png
+-rwxrwxrwx   1 root      nto             652 Aug 29 14:51 errorMediumIcon.png
+-rwxrwxrwx   1 root      nto             434 Aug 29 14:51 errorRedDot.png
+-rwxrwxrwx   1 root      nto             214 Aug 29 14:51 forward.png
+-rwxrwxrwx   1 root      nto             482 Aug 29 14:51 frame.png
+-rwxrwxrwx   1 root      nto             103 Aug 29 14:51 glossyHeader.png
+-rwxrwxrwx   1 root      nto             103 Aug 29 14:51 glossyHeaderPressed.png
+-rwxrwxrwx   1 root      nto             121 Aug 29 14:51 glossyHeaderSelected.png
+-rwxrwxrwx   1 root      nto             146 Aug 29 14:51 goArrow.png
+-rwxrwxrwx   1 root      nto             160 Aug 29 14:51 graphLabelCalloutLeft.png
+-rwxrwxrwx   1 root      nto             161 Aug 29 14:51 graphLabelCalloutRight.png
+-rwxrwxrwx   1 root      nto            2021 Aug 29 14:51 indexedDB.png
+-rwxrwxrwx   1 root      nto            1044 Aug 29 14:51 indexedDBIndex.png
+-rwxrwxrwx   1 root      nto             980 Aug 29 14:51 indexedDBObjectStore.png
+-rwxrwxrwx   1 root      nto            1053 Aug 29 14:51 localStorage.png
+-rwxrwxrwx   1 root      nto             273 Aug 29 14:51 navigatorPinButton.png
+-rwxrwxrwx   1 root      nto             277 Aug 29 14:51 navigatorShowHideButton.png
+-rwxrwxrwx   1 root      nto             738 Aug 29 14:51 paneAddButtons.png
+-rwxrwxrwx   1 root      nto              85 Aug 29 14:51 paneBottomGrow.png
+-rwxrwxrwx   1 root      nto              85 Aug 29 14:51 paneBottomGrowActive.png
+-rwxrwxrwx   1 root      nto            3413 Aug 29 14:51 paneElementStateButtons.png
+-rwxrwxrwx   1 root      nto            3778 Aug 29 14:51 paneFilterButtons.png
+-rwxrwxrwx   1 root      nto              69 Aug 29 14:51 paneGrowHandleLine.png
+-rwxrwxrwx   1 root      nto            1257 Aug 29 14:51 paneRefreshButtons.png
+-rwxrwxrwx   1 root      nto            1122 Aug 29 14:51 paneSettingsButtons.png
+-rwxrwxrwx   1 root      nto             546 Aug 29 14:51 popoverArrows.png
+-rwxrwxrwx   1 root      nto            2231 Aug 29 14:51 popoverBackground.png
+-rwxrwxrwx   1 root      nto            1486 Aug 29 14:51 profileGroupIcon.png
+-rwxrwxrwx   1 root      nto            1295 Aug 29 14:51 profileIcon.png
+-rwxrwxrwx   1 root      nto             568 Aug 29 14:51 profileSmallIcon.png
+-rwxrwxrwx   1 root      nto           42067 Aug 29 14:51 profilesSilhouette.png
+-rwxrwxrwx   1 root      nto             331 Aug 29 14:51 programCounterBorder.png
+-rwxrwxrwx   1 root      nto             224 Aug 29 14:51 radioDot.png
+-rwxrwxrwx   1 root      nto            1057 Aug 29 14:51 resourceCSSIcon.png
+-rwxrwxrwx   1 root      nto             979 Aug 29 14:51 resourceDocumentIcon.png
+-rwxrwxrwx   1 root      nto             859 Aug 29 14:51 resourceJSIcon.png
+-rwxrwxrwx   1 root      nto             378 Aug 29 14:51 resourcePlainIcon.png
+-rwxrwxrwx   1 root      nto             130 Aug 29 14:51 resourcePlainIconSmall.png
+-rwxrwxrwx   1 root      nto            1640 Aug 29 14:51 resourcesSizeGraphIcon.png
+-rwxrwxrwx   1 root      nto            1427 Aug 29 14:51 resourcesTimeGraphIcon.png
+-rwxrwxrwx   1 root      nto           43110 Aug 29 14:51 scriptsSilhouette.png
+-rwxrwxrwx   1 root      nto             311 Aug 29 14:51 searchSmallBlue.png
+-rwxrwxrwx   1 root      nto             304 Aug 29 14:51 searchSmallBrightBlue.png
+-rwxrwxrwx   1 root      nto             264 Aug 29 14:51 searchSmallGray.png
+-rwxrwxrwx   1 root      nto             217 Aug 29 14:51 searchSmallWhite.png
+-rwxrwxrwx   1 root      nto             297 Aug 29 14:51 segment.png
+-rwxrwxrwx   1 root      nto             141 Aug 29 14:51 segmentEnd.png
+-rwxrwxrwx   1 root      nto             320 Aug 29 14:51 segmentHover.png
+-rwxrwxrwx   1 root      nto             145 Aug 29 14:51 segmentHoverEnd.png
+-rwxrwxrwx   1 root      nto             309 Aug 29 14:51 segmentSelected.png
+-rwxrwxrwx   1 root      nto             139 Aug 29 14:51 segmentSelectedEnd.png
+-rwxrwxrwx   1 root      nto            1069 Aug 29 14:51 sessionStorage.png
+-rwxrwxrwx   1 root      nto            1684 Aug 29 14:51 spinner.gif
+-rwxrwxrwx   1 root      nto            3208 Aug 29 14:51 spinnerActive.gif
+-rwxrwxrwx   1 root      nto            3208 Aug 29 14:51 spinnerActiveSelected.gif
+-rwxrwxrwx   1 root      nto            3208 Aug 29 14:51 spinnerInactive.gif
+-rwxrwxrwx   1 root      nto            3208 Aug 29 14:51 spinnerInactiveSelected.gif
+-rwxrwxrwx   1 root      nto             189 Aug 29 14:51 splitviewDimple.png
+-rwxrwxrwx   1 root      nto            4024 Aug 29 14:51 statusbarBackground.png
+-rwxrwxrwx   1 root      nto            6459 Aug 29 14:51 statusbarButtonGlyphs.png
+-rwxrwxrwx   1 root      nto             216 Aug 29 14:51 statusbarButtons.png
+-rwxrwxrwx   1 root      nto             328 Aug 29 14:51 statusbarMenuButton.png
+-rwxrwxrwx   1 root      nto             492 Aug 29 14:51 successGreenDot.png
+-rwxrwxrwx   1 root      nto             663 Aug 29 14:51 thumbActiveHoriz.png
+-rwxrwxrwx   1 root      nto             567 Aug 29 14:51 thumbActiveVert.png
+-rwxrwxrwx   1 root      nto             665 Aug 29 14:51 thumbHoriz.png
+-rwxrwxrwx   1 root      nto             667 Aug 29 14:51 thumbHoverHoriz.png
+-rwxrwxrwx   1 root      nto             565 Aug 29 14:51 thumbHoverVert.png
+-rwxrwxrwx   1 root      nto             567 Aug 29 14:51 thumbVert.png
+-rwxrwxrwx   1 root      nto            3128 Aug 29 14:51 timelineBarBlue.png
+-rwxrwxrwx   1 root      nto            3084 Aug 29 14:51 timelineBarGray.png
+-rwxrwxrwx   1 root      nto            3147 Aug 29 14:51 timelineBarGreen.png
+-rwxrwxrwx   1 root      nto            3087 Aug 29 14:51 timelineBarOrange.png
+-rwxrwxrwx   1 root      nto            3147 Aug 29 14:51 timelineBarPurple.png
+-rwxrwxrwx   1 root      nto            3133 Aug 29 14:51 timelineBarRed.png
+-rwxrwxrwx   1 root      nto            3121 Aug 29 14:51 timelineBarYellow.png
+-rwxrwxrwx   1 root      nto            3284 Aug 29 14:51 timelineCheckmarks.png
+-rwxrwxrwx   1 root      nto            2294 Aug 29 14:51 timelineDots.png
+-rwxrwxrwx   1 root      nto            3485 Aug 29 14:51 timelineHollowPillBlue.png
+-rwxrwxrwx   1 root      nto            3450 Aug 29 14:51 timelineHollowPillGray.png
+-rwxrwxrwx   1 root      nto            3480 Aug 29 14:51 timelineHollowPillGreen.png
+-rwxrwxrwx   1 root      nto            3486 Aug 29 14:51 timelineHollowPillRed.png
+-rwxrwxrwx   1 root      nto            3400 Aug 29 14:51 timelinePillBlue.png
+-rwxrwxrwx   1 root      nto            3326 Aug 29 14:51 timelinePillGray.png
+-rwxrwxrwx   1 root      nto            3350 Aug 29 14:51 timelinePillGreen.png
+-rwxrwxrwx   1 root      nto            3353 Aug 29 14:51 timelinePillOrange.png
+-rwxrwxrwx   1 root      nto            3367 Aug 29 14:51 timelinePillPurple.png
+-rwxrwxrwx   1 root      nto            3342 Aug 29 14:51 timelinePillRed.png
+-rwxrwxrwx   1 root      nto            3335 Aug 29 14:51 timelinePillYellow.png
+-rwxrwxrwx   1 root      nto           30943 Aug 29 14:51 toolbarIcons.png
+-rwxrwxrwx   1 root      nto           23586 Aug 29 14:51 toolbarIconsSmall.png
+-rwxrwxrwx   1 root      nto             266 Aug 29 14:51 toolbarItemSelected.png
+-rwxrwxrwx   1 root      nto             530 Aug 29 14:51 trackHoriz.png
+-rwxrwxrwx   1 root      nto             565 Aug 29 14:51 trackVert.png
+-rwxrwxrwx   1 root      nto             166 Aug 29 14:51 treeDownTriangleBlack.png
+-rwxrwxrwx   1 root      nto             148 Aug 29 14:51 treeDownTriangleWhite.png
+-rwxrwxrwx   1 root      nto             155 Aug 29 14:51 treeRightTriangleBlack.png
+-rwxrwxrwx   1 root      nto             142 Aug 29 14:51 treeRightTriangleWhite.png
+-rwxrwxrwx   1 root      nto             180 Aug 29 14:51 treeUpTriangleBlack.png
+-rwxrwxrwx   1 root      nto             162 Aug 29 14:51 treeUpTriangleWhite.png
+-rwxrwxrwx   1 root      nto             189 Aug 29 14:51 userInputIcon.png
+-rwxrwxrwx   1 root      nto             162 Aug 29 14:51 userInputPreviousIcon.png
+-rwxrwxrwx   1 root      nto             221 Aug 29 14:51 userInputResultIcon.png
+-rwxrwxrwx   1 root      nto             273 Aug 29 14:51 warningIcon.png
+-rwxrwxrwx   1 root      nto             592 Aug 29 14:51 warningMediumIcon.png
+-rwxrwxrwx   1 root      nto             484 Aug 29 14:51 warningOrangeDot.png
+-rwxrwxrwx   1 root      nto            1832 Aug 29 14:51 warningsErrors.png
+
+/accounts/devuser/opt/webkit/resources/inspector/UglifyJS:
+total 98
+drwxrwxrwx   2 root      nto            4096 Aug 29 14:51 .
+drwxrwxrwx   4 root      nto            4096 Aug 29 14:51 ..
+-rwxrwxrwx   1 root      nto           41899 Aug 29 14:51 parse-js.js
+
+/accounts/devuser/opt/www:
+total 40
+drwxrwxrwx   7 root      nto            4096 Aug 29 14:51 .
+drwxrwxrwx   4 root      nto            4096 Aug 29 14:51 ..
+drwxrwxrwx   2 root      nto            4096 Oct 03 01:17 cgi
+drwxrwxrwx   2 root      nto               0 Aug 29 14:51 log
+drwxrwxrwx   2 root      nto               0 Aug 29 14:51 root
+drwxrwxrwx   2 root      nto            4096 Aug 29 14:51 scgi
+drwxrwxrwx   2 root      nto            4096 Aug 29 14:51 scgi-dev
+
+/accounts/devuser/opt/www/cgi:
+total 97
+drwxrwxrwx   2 root      nto            4096 Oct 03 01:17 .
+drwxrwxrwx   7 root      nto            4096 Aug 29 14:51 ..
+-rwxrwxrwx   1 root      nto             965 Oct 03 01:17 RLogging.cgi
+-rwxrwxrwx   1 root      nto            1017 Aug 29 14:51 RLogging.cgi.psyden-orig
+-rwxrwxrwx   1 root      nto           39024 Aug 29 14:51 discovery.cgi
+
+/accounts/devuser/opt/www/log:
+total 0
+
+/accounts/devuser/opt/www/root:
+total 0
+
+/accounts/devuser/opt/www/scgi:
+total 1869
+drwxrwxrwx   2 root      nto            4096 Aug 29 14:51 .
+drwxrwxrwx   7 root      nto            4096 Aug 29 14:51 ..
+-rwxrwxrwx   1 root      nto           55812 Aug 29 14:51 appInstaller.cgi
+-rwxrwxrwx   1 root      nto           89144 Aug 29 14:51 backup.cgi
+-rwxrwxrwx   1 root      nto          183660 Aug 29 14:51 dynamicProperties.cgi
+-rwxrwxrwx   1 root      nto             124 Aug 29 14:51 enterprise.cgi
+-rwxrwxrwx   1 root      nto          183336 Aug 29 14:51 login.cgi
+-rwxrwxrwx   1 root      nto          138264 Aug 29 14:51 metadata.cgi
+-rwxrwxrwx   1 root      nto          105216 Aug 29 14:51 reset.cgi
+-rwxrwxrwx   1 root      nto           84936 Aug 29 14:51 update.cgi
+-rwxrwxrwx   1 root      nto          105336 Aug 29 14:51 wipe.cgi
+
+/accounts/devuser/opt/www/scgi-dev:
+total 17
+drwxrwxrwx   2 root      nto            4096 Aug 29 14:51 .
+drwxrwxrwx   7 root      nto            4096 Aug 29 14:51 ..
+-rwxrwxrwx   1 root      nto              45 Aug 29 14:51 login.cgi
+
+/accounts/devuser/symlink:
+total 40
+drwxrwxrwx   5 root      nto            4096 Aug 29 14:51 .
+drwxr-x---   7 devuser   devuser        4096 Oct 03 01:17 ..
+drwxrwxrwx   2 root      nto            4096 Aug 29 14:51 bin
+drwxrwxrwx   2 root      nto            4096 Aug 29 14:51 sbin
+drwxrwxrwx   3 root      nto            4096 Aug 29 14:51 usr
+
+/accounts/devuser/symlink/bin:
+total 236
+drwxrwxrwx   2 root      nto            4096 Aug 29 14:51 .
+drwxrwxrwx   5 root      nto            4096 Aug 29 14:51 ..
+-rwxrwxrwx   1 root      nto            3812 Aug 29 14:51 id
+-rwxrwxrwx   1 root      nto          108300 Aug 29 14:51 ifconfig
+
+/accounts/devuser/symlink/sbin:
+total 281
+drwxrwxrwx   2 root      nto            4096 Aug 29 14:51 .
+drwxrwxrwx   5 root      nto            4096 Aug 29 14:51 ..
+-rwxrwxrwx   1 root      nto          135212 Aug 29 14:51 launcher-secure
+
+/accounts/devuser/symlink/usr:
+total 24
+drwxrwxrwx   3 root      nto            4096 Aug 29 14:51 .
+drwxrwxrwx   5 root      nto            4096 Aug 29 14:51 ..
+drwxrwxrwx   3 root      nto            4096 Aug 29 14:51 lib
+
+/accounts/devuser/symlink/usr/lib:
+total 24
+drwxrwxrwx   3 root      nto            4096 Aug 29 14:51 .
+drwxrwxrwx   3 root      nto            4096 Aug 29 14:51 ..
+drwxrwxrwx   3 root      nto            4096 Aug 29 14:51 python2.7
+
+/accounts/devuser/symlink/usr/lib/python2.7:
+total 24
+drwxrwxrwx   3 root      nto            4096 Aug 29 14:51 .
+drwxrwxrwx   3 root      nto            4096 Aug 29 14:51 ..
+drwxrwxrwx   3 root      nto            4096 Aug 29 14:51 site-packages
+
+/accounts/devuser/symlink/usr/lib/python2.7/site-packages:
+total 24
+drwxrwxrwx   3 root      nto            4096 Aug 29 14:51 .
+drwxrwxrwx   3 root      nto            4096 Aug 29 14:51 ..
+drwxrwxrwx   4 root      nto            4096 Aug 29 14:51 deckard
+
+/accounts/devuser/symlink/usr/lib/python2.7/site-packages/deckard:
+total 32
+drwxrwxrwx   4 root      nto            4096 Aug 29 14:51 .
+drwxrwxrwx   3 root      nto            4096 Aug 29 14:51 ..
+drwxrwxrwx   2 root      nto            4096 Aug 29 14:51 bar
+drwxrwxrwx   2 root      nto            4096 Aug 29 14:51 installer
+
+/accounts/devuser/symlink/usr/lib/python2.7/site-packages/deckard/bar:
+total 71
+drwxrwxrwx   2 root      nto            4096 Aug 29 14:51 .
+drwxrwxrwx   4 root      nto            4096 Aug 29 14:51 ..
+-rwxrwxrwx   1 root      nto           27916 Aug 29 14:51 abstractbar.pyc
+
+/accounts/devuser/symlink/usr/lib/python2.7/site-packages/deckard/installer:
+total 84
+drwxrwxrwx   2 root      nto            4096 Aug 29 14:51 .
+drwxrwxrwx   4 root      nto            4096 Aug 29 14:51 ..
+-rwxrwxrwx   1 root      nto           34597 Aug 29 14:51 application.pyc

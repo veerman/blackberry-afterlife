@@ -1,0 +1,12 @@
+./apps/sys.data.wallpaper.gYABgJqi6F824h1CwDnH9pryMe8/assets/data/protected_media/wallpaper/Technology
+./apps/sys.data.wallpaper.gYABgJqi6F824h1CwDnH9pryMe8/assets/data/protected_media/wallpaper/Technology
+./apps/sys.data.wallpaper.gYABgJqi6F824h1CwDnH9pryMe8/assets/data/protected_media/wallpaper/Technology
+./apps/sys.data.wallpaper.gYABgJqi6F824h1CwDnH9pryMe8/assets/data/protected_media/wallpaper/Technology
+./apps/sys.data.wallpaper.gYABgJqi6F824h1CwDnH9pryMe8/assets/data/protected_media/wallpaper/Technology
+./apps/sys.data.wallpaper.gYABgJqi6F824h1CwDnH9pryMe8/assets/data/protected_media/wallpaper/Technology
+./.seed/var/pps/system/navigator/config
+./var/pps/services/bbads/configuration
+./var/pps/system/bookmarks
+./var/pps/system/navigator/config
+./var/pps/system/navigator/urls
+./var/pps/system/ota/serverurls

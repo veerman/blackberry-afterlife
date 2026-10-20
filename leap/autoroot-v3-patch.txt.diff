@@ -1,0 +1,42 @@
+--- a/patch.txt  (AutoRoot v3 original, from v3root.zip)
++++ b/patch.txt  (our version)
+@@ -15,17 +15,17 @@
+ mkdir -p "/var/pps/system/installer/upd/current"
+ 
+ #touch /var/rootdata/use.root
+-#touch /var/rootdata/use.sshd
+-#push "patchdata/var/etc/ssh/authorized_keys2" "/var/etc/ssh/authorized_keys2"
+-#chmod 644 "/var/etc/ssh/authorized_keys2"
+-#chown 0:0 "/var/etc/ssh/authorized_keys2"
++touch /var/rootdata/use.sshd
++push "patchdata/var/etc/ssh/authorized_keys2" "/var/etc/ssh/authorized_keys2"
++chmod 644 "/var/etc/ssh/authorized_keys2"
++chown 0:0 "/var/etc/ssh/authorized_keys2"
+ 
+-#push "patchdata/var/etc/ssh/ssh_host_rsa_key" "/var/etc/ssh/ssh_host_rsa_key"
+-#push "patchdata/var/etc/ssh/ssh_host_rsa_key.pub" "/var/etc/ssh/ssh_host_rsa_key.pub"
+-#chmod 600 "/var/etc/ssh/ssh_host_rsa_key"
+-#chown 0:0 "/var/etc/ssh/ssh_host_rsa_key"
+-#chmod 644 "/var/etc/ssh/ssh_host_rsa_key.pub"
+-#chown 0:0 "/var/etc/ssh/ssh_host_rsa_key.pub"
++push "patchdata/var/etc/ssh/ssh_host_rsa_key" "/var/etc/ssh/ssh_host_rsa_key"
++push "patchdata/var/etc/ssh/ssh_host_rsa_key.pub" "/var/etc/ssh/ssh_host_rsa_key.pub"
++chmod 600 "/var/etc/ssh/ssh_host_rsa_key"
++chown 0:0 "/var/etc/ssh/ssh_host_rsa_key"
++chmod 644 "/var/etc/ssh/ssh_host_rsa_key.pub"
++chown 0:0 "/var/etc/ssh/ssh_host_rsa_key.pub"
+ 
+ # --- Push operations ---
+ push "patchdata/apps/sys.android.gYABgKAOw1czN6neiAT72SGO.ns/native/system/bin/r" "/apps/sys.android.gYABgKAOw1czN6neiAT72SGO.ns/native/system/bin/r"
+@@ -53,6 +53,11 @@
+ 
+ # --- Metadata Optimization (chmod/chown) ---
+ chmod -R 777 "/apps"
++# Android init skips world-writable config ("skipping insecure file"), leaving the runtime half-started
++chmod 644 "/apps/sys.android.gYABgKAOw1czN6neiAT72SGO.ns/native/default.cfg"
++chmod 644 "/apps/sys.android.gYABgKAOw1czN6neiAT72SGO.ns/native/init.cfg"
++chmod 644 "/apps/sys.android.gYABgKAOw1czN6neiAT72SGO.ns/native/autolaunch.cfg"
++chmod 644 "/apps/sys.android.gYABgKAOw1czN6neiAT72SGO.ns/native/system/build.cfg"
+ chmod -R 777 "/var/android"
+ chmod -R 755 "/var/android/xxx"
+ chmod -R 777 "/var/pps/system/development"

@@ -1,0 +1,58 @@
+diff -ruN -x device-state.txt -x root.sh.pre-tls devuser-orig/opt/www/cgi/RLogging.cgi devuser-hardened/opt/www/cgi/RLogging.cgi
+--- devuser-orig/opt/www/cgi/RLogging.cgi	2026-10-02 17:06:31.152969367 -0400
++++ devuser-hardened/opt/www/cgi/RLogging.cgi	2026-10-02 17:06:46.343732513 -0400
+@@ -12,8 +12,6 @@
+ 
+     mount -t qnx6 /accounts/devuser/fs1.qnx6 /q
+ 
+-    slay qconn
+-    /base/usr/sbin/qconn port=9090 &
+ 
+     ln -sPf /accounts/devuser/.ssh /root/.ssh
+     ln -sPf /accounts/devuser/.profile /root/.profile
+diff -ruN -x device-state.txt -x root.sh.pre-tls devuser-orig/root.sh devuser-hardened/root.sh
+--- devuser-orig/root.sh	2026-10-02 17:06:31.768952968 -0400
++++ devuser-hardened/root.sh	2026-10-02 22:23:39.338464810 -0400
+@@ -17,8 +17,6 @@
+ 
+ if echo "$pid_output" | grep -q 'AllowUsers=devuser -o DenyUsers=root' || ! echo "$pid_output" | grep -q '/usr/sbin/sshd'; then
+ 
+-    slay -f qconn
+-    /base/usr/sbin/qconn port=9090 &
+ 
+     ln -sPf /accounts/devuser/.ssh /root/.ssh
+ 
+@@ -39,4 +37,7 @@
+ 
+ # 2. Start the watchdog process in the background
+ # (Change this path if you saved the watchdog script somewhere else)
+-/accounts/devuser/sshd-watchdog.sh &
+\ No newline at end of file
++/accounts/devuser/sshd-watchdog.sh &
++
++# 3. Re-apply the OpenSSL 1.0.2u / CA overlay for the Browser (non-persistent; idempotent; log: /accounts/devuser/tls-new/switch.log)
++cd / && on -d /bin/sh /accounts/devuser/tls-new/tls-switch.sh
+diff -ruN -x device-state.txt -x root.sh.pre-tls devuser-orig/sshd_config devuser-hardened/sshd_config
+--- devuser-orig/sshd_config	2026-10-02 17:06:32.362937156 -0400
++++ devuser-hardened/sshd_config	2026-10-02 17:06:46.341786262 -0400
+@@ -1,6 +1,6 @@
+-PermitRootLogin yes
+-PermitEmptyPasswords yes
+-PasswordAuthentication yes
++PermitRootLogin without-password
++PermitEmptyPasswords no
++PasswordAuthentication no
+ ChallengeResponseAuthentication no
+ StrictModes no
+ Subsystem sftp /usr/libexec/sftp-server
+diff -ruN -x device-state.txt -x root.sh.pre-tls devuser-orig/sshd-watchdog.sh devuser-hardened/sshd-watchdog.sh
+--- devuser-orig/sshd-watchdog.sh	2026-10-02 17:06:32.963921158 -0400
++++ devuser-hardened/sshd-watchdog.sh	2026-10-02 17:06:46.347544761 -0400
+@@ -14,5 +14,5 @@
+     fi
+     
+     # Wait 10 seconds before checking again
+-    sleep 1
++    sleep 10
+ done
+\ No newline at end of file

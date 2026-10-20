@@ -1,0 +1,98 @@
+From 2941ba5750c5fd475c94e1e70a26e9fa3074ce58 Mon Sep 17 00:00:00 2001
+From: Steve Veerman <757767+veerman@users.noreply.github.com>
+Date: Fri, 2 Oct 2026 13:11:46 -0400
+Subject: [PATCH] Add Leap STR100-2 loader mapping and Linux flashing notes
+
+Map hardware ID 06002e0a (BlackBerry Leap STR100-2) to LDR_29, the
+loader already used for 07002e0a. Without it, info/flash stop with
+"No valid loader found for 06002E0A". loaders.ini probe results
+already recorded LDR_29 working on 06002E0A.
+
+Add docs/LINUX.md covering the libfuse2 dependency, udev access,
+starting bb10mt before power-on, and flashing stock and AutoRoot
+images, verified on a Leap from Linux.
+
+Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>
+---
+ bb10mt.ini    |  1 +
+ docs/LINUX.md | 56 +++++++++++++++++++++++++++++++++++++++++++++++++++
+ 2 files changed, 57 insertions(+)
+ create mode 100644 docs/LINUX.md
+
+diff --git a/bb10mt.ini b/bb10mt.ini
+index 932c662..4254eda 100644
+--- a/bb10mt.ini
++++ b/bb10mt.ini
+@@ -30,6 +30,7 @@
+ 06001404=LDR_09
+ 06001a06=LDR_01
+ 0600260a=LDR_24
++06002e0a=LDR_29
+ 07001204=LDR_25
+ 07001404=LDR_09
+ 07001504=LDR_26
+diff --git a/docs/LINUX.md b/docs/LINUX.md
+new file mode 100644
+index 0000000..9749549
+--- /dev/null
++++ b/docs/LINUX.md
+@@ -0,0 +1,56 @@
++# Flashing from Linux
++
++bb10mt can flash BB10 devices from Linux without Windows, Wine or a VM. This was verified on a BlackBerry Leap STR100-2 (hardware ID `0x06002E0A`, bootrom 5.47.0.3) on 2 October 2026: stock 10.3.3.3216 OS and radio, then an AutoRoot v3 user image, both flashed with `bb10mt flash` from Arch Linux and both booted.
++
++## Requirements
++
++- libusb 1.0
++- FUSE 2 (`libfuse.so.2`). On Arch: `pacman -S fuse2`. On Debian/Ubuntu: `apt install libfuse2`. Without it bb10mt exits with `error while loading shared libraries: libfuse.so.2`.
++- `loaders.dat` and `bb10mt.ini` next to the binary.
++- USB access for your user, for example:
++
++  ```
++  echo 'SUBSYSTEM=="usb", ATTR{idVendor}=="0fca", MODE="0660", TAG+="uaccess"' | sudo tee /etc/udev/rules.d/51-blackberry.rules
++  sudo udevadm control --reload && sudo udevadm trigger
++  ```
++
++## Entering the bootrom: start bb10mt first
++
++The bootrom only appears (`0fca:0001`) briefly at power-on, and only if a host is already polling. A device that is booted with USB set to mass storage (`0fca:8014`) exposes only a SCSI interface, so bb10mt cannot reboot it and waits on `Connecting to BootROM...`.
++
++1. Start the bb10mt command (`info` or `flash`).
++2. Unplug the device and power it fully off.
++3. Plug it in while off (tap power if nothing happens).
++
++If a session is aborted, the bootrom can be left unresponsive at `0fca:0001`. Unplug, hold power for 10 to 15 seconds, and catch it again.
++
++## Read-only check
++
++```
++./bb10mt info
++```
++
++This loads the RAM loader and prints the hardware ID, bootrom version, MCT/partition map, installed OS and blocklists, then reboots the device. It writes nothing. `No valid loader found for XXXXXXXX` means the hardware ID is missing from `[Loaders]` in `bb10mt.ini`.
++
++## Flashing a stock autoloader
++
++Split the autoloader into its payloads, then flash them in one session (OS first, then radio):
++
++```
++./bb10mt split -i Z30_10.3.3.3216_STA100.exe -o stock/
++./bb10mt flash -i stock/<os>.signed,stock/<radio>.signed
++```
++
++Stock payloads end in a genuine 560-byte `QNXH-OS-1` seal, which bb10mt sends as the signature trailer. On the Leap the 3 GB OS took about four minutes; the device then booted to the setup wizard.
++
++Official autoloaders carry 0x70 extra bytes between the end of the PE image and the payload table (signature `0x97C5D59C` repeated three times). Tools that parse the table should search for that signature, not assume it starts at the PE end.
++
++## Flashing an AutoRoot v3 user image
++
++`root_v3.sh` writes Windows `.exe` autoloaders, but on Linux you can flash its intermediate files directly. The device must already run the stock build the image was made from:
++
++```
++./bb10mt flash -i work/<name>.0.unsigned,stock/<radio>.signed
++```
++
++The user-partition image (packed with `pack -s`) was accepted and booted.
+-- 
+2.55.0
+
